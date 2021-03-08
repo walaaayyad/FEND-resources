@@ -212,6 +212,9 @@ body {
 /**** For Small Screen ****/
  @media (max-width: 576px) {
     /*  header  */
+    .header {
+        height: 100vh;
+    }
      .header h1 {
         font-size: 1.5rem;
         padding-top: 15px;
