@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+body {
+   background-color: #fff;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/********************** start header *********************/
+.header {
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+    position: relative;
+    background: #150517;
+    background: -moz-linear-gradient(left, #150517 0%, #55165E 61%, #9827A8 100%);
+    background: -webkit-linear-gradient(left, #150517 0%, #55165E 61%, #9827A8 100%);
+    background: linear-gradient(to right, #150517 0%, #55165E 61%, #9827A8 100%);
+    clip-path: polygon(0 1%, 100% 2%, 100% 100%, 0 82%);
+}
+.header h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+.header img {
+    width: 500px;
+    height: 500px;
+    border-radius: 42% 39% 22% 56% / 45% 39% 25% 27% ;
+    position: absolute;
+    right: 5px;
+    margin-top: 10px;
+}
+.header-text {
+    font-size: 8rem;
+    position: absolute;
+    top: 25%;
+    color: #856a8973;
+    font-weight: 600;
+    padding-left: 6%;
+}
+.list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+}
+.header ul {
+    font-size: 2rem;
+    position: relative;
+}
+.header ul li {
+    color: #fff;
+    margin-left: 30px;
+    list-style: none;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+    
+}
+/********************* end header **********************/
+
+/***************** start first section *****************/
+.first-section-img {
+    width: 40%;
+    height: 500px;
+}
+.first-section-img img{
+    width: 100%;
+    height: inherit;
+}
+.first-section-text {
+    width: 60%;
+    color: #732281;
+    direction: rtl;
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+}
+.first-section-text button {
+    width: 100px;
+    background-color: #732281;
+    color: white;
+    padding: 3px;
+    font-size: 24px;
+    border-radius: 10%;
+}
+/***************** end first section *******************/
+
+/***************** start second section *****************/
+.second-section {
+    width: 100%;
+    background-color: #55165E;
+}
+.second-section .card {
+    width: 90%;
+    height: 300px;
+    color: #fff;
+    background-color: #1f0522;
+    margin: 15px auto;
+    position: relative;
+}
+.second-section ul {
+    margin: 30px auto;
+    padding-left: 15px;
+    padding-top: 14px;
+    list-style: none;
+}
+.second-section ul li {
+    margin: 5px auto;
+    display: inline-block;
+    width: 30%;
+}
+.second-section .icon {
+    width: 30px;
+    height: 40px;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+.second-section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.second-section .title {
+    background-color: #ffd868;
+    color: #1f0522;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+/***************** end second section *******************/
+
+/***************** start ## section *****************/
+/***************** end ## section *******************/
+
+/***************** start ## section *****************/
+/***************** end ## section *******************/
+
+
+/*********** start circle ************/
+.circle-wrap {
+    position: absolute;
+    top: 30;
+}
+.circle {
+    background-color: #9927a86f;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.x {
+    animation: x 13s linear infinite alternate;
+}
+.y {
+    animation: y 7s linear infinite alternate;
+}
+.x2 {
+    background-color: #856a896f;
+    position: absolute;
+    top: 30;
+    right: 0;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: x2 13s linear infinite alternate;
+}
+
+@keyframes x {
+    100% {
+        transform: translateX(calc(100% - 300px));
+    }
+}
+@keyframes y {
+    100% {
+        transform: translateY(calc(100vh - 300px));
+    }
+}
+@keyframes x2 {
+    100% {
+        transform: translateX(calc(-100% - 300px));
+    }
+}
+
+/*********** end circle **************/
+
+
+/*
+############ Media Query ##############
+*/
+/**** For Small Screen ****/
+ @media (max-width: 576px) {
+    /*  header  */
+     .header h1 {
+        font-size: 1.5rem;
+        padding-top: 15px;
+     }
+     .header img {
+        width: 300px;
+        height: 300px;
+     }
+     .header ul {
+         margin-top: 20px;
+     }
+     .header ul li {
+         font-size: 20px;
+         margin: 10px;
+         padding: 13px;
+     }
+     .header-text {
+        font-size: 7rem;
+        top: 43%;
+     }
+    .list {
+        width: 100%;
+        top: 45%;
+        padding-left: 10%;
+    }
+    /* first section */
+    .first-section-text {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .first-section-img {
+        width: 100%;
+    }
+    /* second section */
+    .second-section ul li {
+        width: 48%;
+    }
+    .second-section a {
+        font-size: 1.2rem;
+    }
+ }
