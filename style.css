@@ -12,22 +12,26 @@ body {
    background-color: #fff;
 }
 .container {
+    position: relative;
+}
+.section-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
+
 /********************** start header *********************/
 .header {
     width: 100%;
-    height: 60vh;
+    height: 600px;
     color: #fff;
     position: relative;
     background: #150517;
     background: -moz-linear-gradient(left, #150517 0%, #55165E 61%, #9827A8 100%);
     background: -webkit-linear-gradient(left, #150517 0%, #55165E 61%, #9827A8 100%);
     background: linear-gradient(to right, #150517 0%, #55165E 61%, #9827A8 100%);
-    clip-path: polygon(0 1%, 100% 2%, 100% 100%, 0 82%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 .header h1 {
     padding-top: 10px;
@@ -74,32 +78,119 @@ body {
 }
 /********************* end header **********************/
 
-/***************** start first section *****************/
-.first-section-img {
+/************** start channels section ****************/
+.channels-section-img {
     width: 40%;
     height: 500px;
 }
-.first-section-img img{
+.channels-section-img img{
     width: 100%;
     height: inherit;
 }
-.first-section-text {
+.channels-section-text {
     width: 60%;
     color: #732281;
-    direction: rtl;
     display: inline-block;
     text-align: center;
     font-size: 2rem;
 }
-.first-section-text button {
+.channels-section-text p {
+    margin: 20px auto;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.channels-section-text button {
     width: 100px;
     background-color: #732281;
     color: white;
     padding: 3px;
     font-size: 24px;
     border-radius: 10%;
+    cursor: pointer;
 }
-/***************** end first section *******************/
+/*** start channels list ***/
+#arabic {
+    display: none;
+}
+#arabic.open {
+    display: block;
+}
+#english {
+    display: none;
+}
+#english.open {
+    display: block;
+}
+.learning-path {
+    width: 100%;
+    height: 100%;
+    background-color: #55165E;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+.learning-path .closeBtn {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.learning-path .closeBtn img {
+    width: inherit;
+    height: inherit;
+}
+.learning-path ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.learning-path a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.learning-path h2 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+.videos-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.channel-card {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #55165E;
+    display: flex;
+    align-items: center;
+    box-shadow: 
+       7px 7px 10px 0 rgba(0, 0, 0, 0.25),
+      -3px -3px 10px 0 rgba(255, 255, 255, 0.3)
+}
+.channel-card img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid #55165E;
+    box-shadow: 
+       7px 7px 10px 0 rgba(0, 0, 0, 0.25),
+      -3px -3px 10px 0 rgba(255, 255, 255, 0.3)
+}
+/*** end channels list ***/
+/***************** end channels section *******************/
 
 /***************** start second section *****************/
 .second-section {
@@ -124,6 +215,13 @@ body {
     margin: 5px auto;
     display: inline-block;
     width: 30%;
+}
+.second-section ul li::before {
+    content: "\2022";
+    color: #ffd868;
+    font-weight: 300;
+    display: inline-block; 
+    width: 1.5em;
 }
 .second-section .icon {
     width: 30px;
@@ -150,6 +248,7 @@ body {
     font-weight: 600;
 
 }
+
 /***************** end second section *******************/
 
 /***************** start ## section *****************/
@@ -215,26 +314,26 @@ body {
     .header {
         height: 100vh;
     }
-     .header h1 {
-        font-size: 1.5rem;
-        padding-top: 15px;
-     }
-     .header img {
-        width: 300px;
-        height: 300px;
-     }
-     .header ul {
-         margin-top: 20px;
-     }
-     .header ul li {
-         font-size: 20px;
-         margin: 10px;
-         padding: 13px;
-     }
-     .header-text {
-        font-size: 7rem;
-        top: 43%;
-     }
+    .header h1 {
+    font-size: 1.5rem;
+    padding-top: 15px;
+    }
+    .header img {
+    width: 300px;
+    height: 300px;
+    }
+    .header ul {
+        margin-top: 20px;
+    }
+    .header ul li {
+        font-size: 20px;
+        margin: 10px;
+        padding: 13px;
+    }
+    .header-text {
+    font-size: 7rem;
+    top: 43%;
+    }
     .list {
         width: 100%;
         top: 45%;

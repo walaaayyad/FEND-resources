@@ -8,6 +8,7 @@
     <title>My Favorite</title>
 </head>
 <body>
+    <div class="container">
     <!--********************* Start Header ****************************-->
     <header class="header">
         <h1>My Favorite</h1>
@@ -45,17 +46,102 @@
     <!--********************* End Header ****************************-->
 
     <!--********************* Start First Section *******************-->
-    <section class="first-section">
-        <div class="container">
-            <div class="first-section-img"><img src="./images/—Pngtree—modern flat design concept of_5332855.png" alt="people"></div>
-            <div class="first-section-text">
+    <section class="channels-section">
+        <div class="section-container">
+            <div class="channels-section-img"><img src="./images/—Pngtree—modern flat design concept of_5332855.png" alt="people"></div>
+            <div class="channels-section-text">
                 <div>
-                    <p>قنوات تعليميه باللغه العربية</p>
-                    <button>open</button>
+                    <p>Arabic Channels</p>
+                    <button id="arabic-channels-btn">open</button>
+                    <!-- Start Arabic Videos Page [ open when click the button ]-->
+                    <div id="arabic" class="learning-path">
+                        <h2>Arabic Channels</h2>
+                        <button id="arabicCloseBtn" class="closeBtn"><img src="./icons/closeB.svg" alt=""></button>
+                        <ul class="videos-list">
+                            <li class="channel-card">
+                                <img src="./channelsLogo/elzero.jpg" alt="elzero">
+                                <a href="https://www.youtube.com/user/OsamaElzero">Elzero Web School</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/uniqueCoderz.jpg" alt="UniqueCoderzAcademy">
+                                <a href="https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g">Unique Coderz Academy</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/nourHomsi.jpg" alt="Nour Homsi">
+                                <a href="https://www.youtube.com/c/NourHomsi/featured">Nour Homsi</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/semicolon.jpg" alt="semicolon">
+                                <a href="https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig">SemiColon Academy</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/mohamedAbusrea.jpg" alt="Mohamed Abusrea">
+                                <a href="https://www.youtube.com/c/MohamedAbusrea/videos">Mohamed Abusrea</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/free4arab.jpg" alt="Free4arab">
+                                <a href="https://www.youtube.com/channel/UCFOdc57jigXVfIVmsfgokeQ">Free4arab</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/codezilla.jpg" alt="Codezilla">
+                                <a href="https://www.youtube.com/channel/UCveX_0uBOHVHbpV838OGXVA">Codezilla</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/codehood.jpg" alt="Codehood">
+                                <a href="https://www.youtube.com/channel/UCoNfslp4XbQULWcE7V4FkZw">Codehood</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/freelanceMonsters.jpg" alt="freelanceMonsters">
+                                <a href="https://www.youtube.com/channel/UCirZap8QRlZIZ6LdHQoLaxg/videos">وحوش الفريلانس</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div>
-                    <p>قنوات تعليميه باللغة الانجليزية</p>
-                    <button>open</button>
+                    <p>English Channels</p>
+                    <button id="english-channels-btn">open</button>
+                    <div id="english" class="learning-path">
+                        <h2>English Channels</h2>
+                        <button id="englishCloseBtn" class="closeBtn"><img src="./icons/closeB.svg" alt=""></button>
+                        <ul class="videos-list">
+                            <li class="channel-card">
+                                <img src="./channelsLogo/elzero.jpg" alt="elzero">
+                                <a href="https://www.youtube.com/user/OsamaElzero">Elzero Web School</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/uniqueCoderz.jpg" alt="UniqueCoderzAcademy">
+                                <a href="https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g">Unique Coderz Academy</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/nourHomsi.jpg" alt="Nour Homsi">
+                                <a href="https://www.youtube.com/c/NourHomsi/featured">Nour Homsi</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/semicolon.jpg" alt="semicolon">
+                                <a href="https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig">SemiColon Academy</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/mohamedAbusrea.jpg" alt="Mohamed Abusrea">
+                                <a href="https://www.youtube.com/c/MohamedAbusrea/videos">Mohamed Abusrea</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/free4arab.jpg" alt="Free4arab">
+                                <a href="https://www.youtube.com/channel/UCFOdc57jigXVfIVmsfgokeQ">Free4arab</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/codezilla.jpg" alt="Codezilla">
+                                <a href="https://www.youtube.com/channel/UCveX_0uBOHVHbpV838OGXVA">Codezilla</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/codehood.jpg" alt="Codehood">
+                                <a href="https://www.youtube.com/channel/UCoNfslp4XbQULWcE7V4FkZw">Codehood</a>
+                            </li>
+                            <li class="channel-card">
+                                <img src="./channelsLogo/freelanceMonsters.jpg" alt="freelanceMonsters">
+                                <a href="https://www.youtube.com/channel/UCirZap8QRlZIZ6LdHQoLaxg/videos">وحوش الفريلانس</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,15 +150,42 @@
     
     <!--********************* Start Second Section ******************-->
     <section class="second-section">
-        <div class="container">
+        <div class="section-container">
             <div class="card">
                 <div class="title">Learn</div>
                 <ul>
-                    <li><a href="#"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a></li>
+                    <li><a href="#"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a>
+                        <!-- <div class="learning-path">
+                            <div class="learning-path-section">
+                                <h3>قنوات تعليمية</h3>
+                                <a href="https://www.youtube.com/user/OsamaElzero">Elzero Web School</a>
+                                <a href="https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig">SemiColon Academy</a>
+                            </div>
+                            <div class="learning-path-section">
+                                <h3>مراجع للقراءة</h3>
+                            </div>
+                            <div class="learning-path-section">
+                                <h3>تدريب وحل اختبارات</h3>
+                            </div>
+                            <div class="learning-path-section">
+                                <h3>اختصارات الاكواد</h3>
+                            </div> -->
+                        
+                    </li>
                     <li><a href="#"><img src="./icons/css.svg" alt="cssIcon" class="icon"> CSS</a></li>
                     <li><a href="#"><img src="./icons/javascript.svg" alt="jsIcon" class="icon"> JavaScript</a></li>
                     <li><a href="#"><img src="./icons/git.svg" alt="gitIcon" class="icon"> Git</li>
                     <li><a href="#"><img src="./icons/github.svg" alt="githubIcon" class="icon"> GitHub</a></li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="title">Create</div>
+                <ul>
+                    <li><a href="#">Header</a></li>
+                    <li><a href="#">Navbar</a></li>
+                    <li><a href="#">Nice Buttons</a></li>
+                    <li><a href="#">Animation Elements</a></li>
+                    <li><a href="#">Hamburger Menu</a></li>
                 </ul>
             </div>
             <div class="card">
@@ -95,13 +208,25 @@
                     <li>Project Five</li>
                 </ul>
             </div>
+            <div class="card">
+                <div class="title">Tools</div>
+                <ul>
+                    <li><a href="#">Colors</a></li>
+                    <li><a href="#">Fonts</a></li>
+                    <li><a href="#">Icons</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Get Waves</a></li>
+                    <li><a href="#">Border Shape Generator</a></li>
+                    <li><a href="https://9elements.github.io/fancy-border-radius/#66.65.30.92--541.541">Fancy border Generator</a></li>
+                </ul>
+            </div>
         </div>
     </section>
     <!--********************* End Second Section ********************-->
     
     <!--********************* Start Third Section *******************-->
     <section>
-        <div class="container">
+        <div>
             
         </div>
     </section>
@@ -109,12 +234,13 @@
     
     <!--********************* Start Fourth Section ******************-->
     <section>
-        <div class="container">
+        <div>
             
         </div>
     </section>
     <!--********************* End Fourth Section ********************-->
-    
+</div> 
+<script src="./app.js"></script>
 </body>
 </html>
 
@@ -122,4 +248,9 @@
 ****************************  IMAGES ATTRIBUTE  ****************************
 <a href='https://pngtree.com/so/abstract'>abstract png from pngtree.com</a>
 <a href='https://pngtree.com/so/webpage'>webpage png from pngtree.com</a>
+-->
+
+<!--git: https://www.youtube.com/watch?v=vFr7zh4cdWk&list=PLdYYj2XLw5BkE6LAZGx-cqeq8XYZvi-Pr&ab_channel=RamyHakam 
+frontEnd: https://www.youtube.com/watch?v=_rDqhxrkANc&list=PLtFbQRDJ11kFJFzd5UNy5vSnkbR031vG9&ab_channel=UniqueCoderzAcademy
+
 -->
