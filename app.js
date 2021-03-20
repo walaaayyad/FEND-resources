@@ -1,32 +1,19 @@
-// start channels section
-let arabicChannelsBtn = document.getElementById('arabic-channels-btn'),
-    englishChannelsBtn = document.getElementById('english-channels-btn'),
-    arabicCloseBtn = document.getElementById('arabicCloseBtn'),
-    englishCloseBtn = document.getElementById('englishCloseBtn'),
-    //arabic = document.getElementById('arabic'),
-    //english = document.getElementById('english'),
-    html = document.getElementById('html'),
-    htmlCloseBtn = document.getElementById('htmlCloseBtn');
 
+const htmlForm = document.getElementById('htmlForm'),
+      cssForm = document.getElementById('cssForm'),
+      jsForm = document.getElementById('jsForm'),
+      gitForm = document.getElementById('gitForm'),
+      githubForm = document.getElementById('githubForm');
 
-arabicChannelsBtn.addEventListener('click', ()=> {
-    arabic.classList.add("open");
-});
-englishChannelsBtn.addEventListener('click', ()=> {
-    english.classList.add("open");
-});
-arabicCloseBtn.addEventListener('click', ()=> {
-    arabic.classList.remove("open");
-});
-englishCloseBtn.addEventListener('click', ()=> {
-    english.classList.remove("open");
-});
-// end channels section
+// Function to open form
+const openForm = (id)=> {
+    id.classList.add("open");
+    return;
+}
 
- html.addEventListener('click', ()=> {
-     htmlForm.classList.add("open");
- });
- htmlCloseBtn.addEventListener('click', ()=> {
-    htmlForm.classList.add("close");
-    console.log('hi from html');
-});
+// Function to close form 
+const closeForm = (id)=> {
+    id.classList.remove("open");
+    return;
+}
+

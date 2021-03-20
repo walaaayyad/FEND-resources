@@ -52,11 +52,11 @@
             <div class="channels-section-text">
                 <div>
                     <p>Arabic Channels</p>
-                    <button id="arabic-channels-btn">open</button>
+                    <button id="arabic-channels-btn" onclick="openForm(arabic)">open</button>
                         <!-- Start Arabic Videos Page [ open when click the button ]-->
                         <div id="arabic" class="learning-page">
                             <h2>Arabic Channels</h2>
-                            <button id="arabicCloseBtn" class="closeBtn"><img src="./icons/closeB.svg" alt=""></button>
+                            <button id="arabicCloseBtn" class="closeBtn" onclick="closeForm(arabic)"><img src="./icons/closeB.svg" alt=""></button>
                             <ul class="videos-list">
                                 <li class="channel-card">
                                     <img src="./channelsLogo/elzero.jpg" alt="elzero">
@@ -100,11 +100,11 @@
                 </div>
                 <div>
                     <p>English Channels</p>
-                    <button id="english-channels-btn">open</button>
+                    <button id="english-channels-btn" onclick="openForm(english)">open</button>
                         <!-- Start English Videos Page -->
                         <div id="english" class="learning-page">
                             <h2>English Channels</h2>
-                            <button id="englishCloseBtn" class="closeBtn"><img src="./icons/closeB.svg" alt=""></button>
+                            <button id="englishCloseBtn" class="closeBtn" onclick="closeForm(english)"><img src="./icons/closeB.svg" alt=""></button>
                             <ul class="videos-list">
                                 <li class="channel-card">
                                     <img src="./channelsLogo/theNetNinja.jpeg" alt="The Net Ninja">
@@ -190,26 +190,21 @@
                 <div class="title">Learn</div>
                 <ul>
                     <!-- Start HTML Page -->
-                    <li id="html"><a href="#htmlForm"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a>
+                    <li id="html"><a href="#htmlForm" onclick="openForm(htmlForm)"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a>
                         <div id="htmlForm" class="learning-page">
                             <div class="title">HTML Page</div>
-                            <button id="htmlCloseBtn" class="closeBtn"><img src="./icons/closeB.svg" alt=""></button>
+                            <button id="htmlCloseBtn" class="closeBtn" onclick="closeForm(htmlForm)"><img src="./icons/closeB.svg" alt=""></button>
                             <div class="subject-page-section">
                                 <ul class="subject-page-list">
                                     <p>Arabic Videos</p>
                                     <li><a href="https://www.youtube.com/watch?v=q3yFo-t1ykw">Abdelrahman Gamal</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji">Elzero Web School
-                                    </a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji">Elzero Web School</a></li>
                                     <li><a href="https://www.youtube.com/watch?v=8dO3iDegZ9o&list=PLHIfW1KZRIfnXKjZ9UcT5BVt9x19BlItX">Hassouna Academy</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=yFCUhQONVGA">Nour Homsi
-                                    </a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=yFCUhQONVGA">Nour Homsi</a></li>
                                     <p>English Videos</p>
-                                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">Programming with Mosh
-                                    </a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy Media
-                                    </a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">freeCodeCamp.org
-                                    </a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">Programming with Mosh</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy Media</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">freeCodeCamp.org</a></li>
                                     <li><a href=""></a></li>
                                 </ul>
                             </div>
@@ -246,10 +241,210 @@
                         </div>
                     </li>
                     <!-- End HTML Page -->
-                    <li><a href="#"><img src="./icons/css.svg" alt="cssIcon" class="icon"> CSS</a></li>
-                    <li><a href="#"><img src="./icons/javascript.svg" alt="jsIcon" class="icon"> JavaScript</a></li>
-                    <li><a href="#"><img src="./icons/git.svg" alt="gitIcon" class="icon"> Git</li>
-                    <li><a href="#"><img src="./icons/github.svg" alt="githubIcon" class="icon"> GitHub</a></li>
+
+                    <!-- Start css Page -->
+                    <li id="css"><a href="#cssForm" onclick="openForm(cssForm)"><img src="./icons/css.svg" alt="cssIcon" class="icon"> CSS</a>
+                        <div id="cssForm" class="learning-page">
+                            <div class="title">CSS Page</div>
+                            <button class="closeBtn" onclick="closeForm(cssForm)"><img src="./icons/closeB.svg" alt=""></button>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <p>English Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Cheat Sheets</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>Cheat sheets</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Books</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>English Books</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End css Page -->
+
+                    <!-- Start javaScript Page -->
+                    <li id="js"><a href="#jsForm" onclick="openForm(jsForm)"><img src="./icons/javascript.svg" alt="jsIcon" class="icon"> JavaScript</a>
+                        <div id="jsForm" class="learning-page">
+                            <div class="title">JavaScript Page</div>
+                            <button class="closeBtn" onclick="closeForm(jsForm)"><img src="./icons/closeB.svg" alt=""></button>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <p>English Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Cheat Sheets</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>Cheat sheets</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Books</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>English Books</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End javaScript Page -->
+
+                    <!-- Start git Page -->
+                    <li id="git"><a href="#gitForm" onclick="openForm(gitForm)"><img src="./icons/git.svg" alt="gitIcon" class="icon"> Git</a>
+                        <div id="gitForm" class="learning-page">
+                            <div class="title">Git Page</div>
+                            <button class="closeBtn" onclick="closeForm(gitForm)"><img src="./icons/closeB.svg" alt=""></button>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <p>English Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Cheat Sheets</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>Cheat sheets</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Books</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>English Books</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End git Page -->
+
+                    <!-- Start github Page -->
+                    <li id="github"><a href="#githubForm" onclick="openForm(githubForm)"><img src="./icons/github.svg" alt="githubIcon" class="icon"> GitHub</a>
+                        <div id="githubForm" class="learning-page">
+                            <div class="title">GitHub Page</div>
+                            <button class="closeBtn" onclick="closeForm(githubForm)"><img src="./icons/closeB.svg" alt=""></button>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <p>English Videos</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Cheat Sheets</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>Cheat sheets</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="subject-page-section">
+                                <ul class="subject-page-list">
+                                    <p>Arabic Books</p>
+                                    <div class="rtlDir">
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </div>
+                                    <p>English Books</p>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End github Page -->
                 </ul>
             </div>
             <div class="card">

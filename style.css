@@ -124,7 +124,7 @@ body {
 .learning-page {
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-image: linear-gradient(to right, #211024, #3f1246, #561860, #6f257a, #9827a8);
     position: absolute;
     top: 0;
     left: 0;
@@ -145,6 +145,8 @@ body {
 .learning-page .closeBtn img {
     width: inherit;
     height: inherit;
+    background-color: #561860;
+    border-radius: 50%;
 }
 .learning-page ul {
     list-style: none;
@@ -159,7 +161,7 @@ body {
     text-align: left;
 }
 .learning-page h2 {
-    color: #55165E;
+    color: #f5d94e;
     letter-spacing: 3px;
     margin-top: 20px;
 }
@@ -250,6 +252,11 @@ body {
 }
 .subject-page-list {
     flex-direction: column; 
+
+    column-count: 2;
+    column-gap: 20px;
+    column-fill: auto;
+    list-style-position: inside;
 }
 .subject-page-list p {
     font-size: 1.5rem;
@@ -273,6 +280,34 @@ body {
 }
 #htmlForm.close {
     display: none;
+}
+
+#cssForm {
+    display: none;
+}
+#cssForm.open {
+    display: block;
+}
+
+#jsForm {
+    display: none;
+}
+#jsForm.open {
+    display: block;
+}
+
+#gitForm {
+    display: none;
+}
+#gitForm.open {
+    display: block;
+}
+
+#githubForm {
+    display: none;
+}
+#githubForm.open {
+    display: block;
 }
 
 
