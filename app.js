@@ -3,8 +3,10 @@ let arabicChannelsBtn = document.getElementById('arabic-channels-btn'),
     englishChannelsBtn = document.getElementById('english-channels-btn'),
     arabicCloseBtn = document.getElementById('arabicCloseBtn'),
     englishCloseBtn = document.getElementById('englishCloseBtn'),
-    arabic = document.getElementById('arabic'),
-    english = document.getElementById('english');
+    //arabic = document.getElementById('arabic'),
+    //english = document.getElementById('english'),
+    html = document.getElementById('html'),
+    htmlCloseBtn = document.getElementById('htmlCloseBtn');
 
 
 arabicChannelsBtn.addEventListener('click', ()=> {
@@ -20,3 +22,11 @@ englishCloseBtn.addEventListener('click', ()=> {
     english.classList.remove("open");
 });
 // end channels section
+
+ html.addEventListener('click', ()=> {
+     htmlForm.classList.add("open");
+ });
+ htmlCloseBtn.addEventListener('click', ()=> {
+    htmlForm.classList.add("close");
+    console.log('hi from html');
+});
