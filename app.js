@@ -8,6 +8,7 @@ const htmlForm = document.getElementById('htmlForm'),
 // Function to open form
 const openForm = (id)=> {
     id.classList.add("open");
+    window.scrollTo(0,0);
     return;
 }
 

@@ -42,7 +42,7 @@ body {
     height: 500px;
     border-radius: 42% 39% 22% 56% / 45% 39% 25% 27% ;
     position: absolute;
-    right: 5px;
+    right: 0px;
     margin-top: 10px;
 }
 .header-text {
@@ -54,27 +54,20 @@ body {
     padding-left: 6%;
 }
 .list {
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 60%;
     position: absolute;
     top: 20%;
+    text-align: inherit;
 }
 .header ul {
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
 }
 .header ul li {
     color: #fff;
     margin-left: 30px;
     list-style: none;
-    display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    padding: 20px;
-    margin: 20px;
-    
+    margin-bottom: 10px;
 }
 /********************* end header **********************/
 
@@ -381,18 +374,20 @@ body {
     .header h1 {
     font-size: 1.5rem;
     padding-top: 15px;
+    color: #f5d94e;
     }
     .header img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
     }
     .header ul {
         margin-top: 20px;
     }
     .header ul li {
-        font-size: 20px;
-        margin: 10px;
-        padding: 13px;
+        font-size: 17px;
+        margin: 5px;
+        padding: 5px;
     }
     .header-text {
     font-size: 7rem;
@@ -400,22 +395,41 @@ body {
     }
     .list {
         width: 100%;
-        top: 45%;
-        padding-left: 10%;
+        top: 30%;
+        padding-left: 2%;
     }
     /* first section */
-    .first-section-text {
+    .channels-section-text {
         width: 100%;
         margin-bottom: 15px;
     }
-    .first-section-img {
+    .channels-section-img {
         width: 100%;
     }
+    .channels-section-img img {
+        width: inherit;
+    }
     /* second section */
-    .second-section ul li {
+    .subjects-section ul {
+        column-count: 1;
+    }
+    .subjects-section a {
+        font-size: 1.2rem;
+    }
+        
+    /*
+    .subjects-section ul li {
         width: 48%;
     }
-    .second-section a {
-        font-size: 1.2rem;
+    */
+ }
+
+ @media (min-width: 577px) and (max-width: 768px) {
+    .header img {
+        width: 350px;
+        height: 350px;
+    }
+    .list {
+        top: 15%;
     }
  }
