@@ -67,6 +67,15 @@ const scrollToTop = () => {
     window.scrollTo(0,0);
   }
 
+//5- Function to handle open & close side menu
+const openIconHandler = ()=> {
+    document.getElementById('1').classList.toggle('line1');
+    document.getElementById('2').classList.toggle('line2');
+    document.getElementById('3').classList.toggle('line3');
+    document.getElementById('sideMenu').classList.toggle('open');
+    document.getElementById('cover').classList.toggle('openCover');
+  }
+
 /******************************/
 //    Define EVENT LISTENERS  
 //******************************/
