@@ -20,6 +20,155 @@ body {
     align-items: center;
     justify-content: center;
 }
+/********************** start navbar *********************/
+/* Navigation Styles*/
+.navbar-menu {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 200;
+    transition: all 0.5s ease;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    position: relative;
+}
+.logo img {
+    width: inherit !important;
+    height: inherit !important;
+}
+.navbar-list {
+    display: block;
+}
+.navbar-menu ul {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+.navbar-menu a {
+    text-decoration: none;
+    padding: 6px;
+    color: #eee;
+}
+.navbar-menu a:hover,
+.navbar-menu a:active {
+    color: #f5d94e;
+    border-bottom: 1px solid #f5d94e;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-menu .menu__link {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-menu .menu__link:hover,
+.link__active {
+    border-bottom: 3px solid #f5d94e;
+    color: #f5d94e;
+    transition: ease 0.3s all;
+}
+.navbar-menu.scroll {
+    background-color: #3f1246;
+} 
+
+/*  Start Hamburger Icon  */
+.hamburgerIcon {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 500;
+}
+.line {
+    width: 40px;
+    height: 4px;
+    background-color: #03b2e3;
+    margin: 5px auto;
+    transition: all 0.5s ease;
+}
+.line:first-child {
+    margin-top: 20%;
+}
+/* End Hamburger Icon */
+
+/* Start rotate lines to X */
+.line1 {
+    display: none;
+}
+.line2 {
+    margin-top: 30px;
+    position: absolute;
+    transform: rotate(125deg);
+    transition: all 1s ease;
+    -webkit-transform: rotate(125deg);
+    -moz-transform: rotate(125deg);
+    -ms-transform: rotate(125deg);
+    -o-transform: rotate(125deg);
+}
+.line3 {
+    position: absolute;
+    margin-top: 30px;
+    transform: rotate(55deg);
+    transition: all 1s ease;
+    -webkit-transform: rotate(55deg);
+    -moz-transform: rotate(55deg);
+    -ms-transform: rotate(55deg);
+    -o-transform: rotate(55deg);
+}
+/* End rotate lines to X */
+
+/* Start Side Menu */
+.hamburgerMenu {
+    margin-top: 60px;
+    width: 60%;
+    height: 100vh;
+    background-color: #fff;
+    display:none;
+    z-index: 500;
+    clip-path: circle(1px at 100% 1%);
+    -webkit-clip-path: circle(1px at 100% 1%);
+    transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+}
+.hamburgerMenu.open {
+    clip-path: circle(1000px at 90% 10%);
+    -webkit-clip-path: circle(1000px at 90% 10%);
+}
+.darkCover {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 300;
+    position: absolute;
+    display: none;
+}
+.darkCover.openCover {
+    display: block;
+}
+/* End Side Menu */
+
+
+/********************** end navbar *********************/
 
 /********************** start header *********************/
 .header {
@@ -63,7 +212,7 @@ body {
     position: absolute;
     top: 20%;
     text-align: inherit;
-} */
+} 
 .header ul {
     font-size: 1.5rem;
     position: relative;
@@ -73,7 +222,7 @@ body {
     margin-left: 30px;
     list-style: none;
     margin-bottom: 10px;
-}
+}*/
 /********************* end header **********************/
 
 /************** start channels section ****************/
