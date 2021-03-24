@@ -24,7 +24,7 @@ body {
 /* Navigation Styles*/
 .navbar-menu {
     width: 100%;
-    height: 60px;
+    height: auto;
     background-color: transparent;
     position: fixed;
     display: flex;
@@ -136,9 +136,10 @@ body {
 
 /* Start Side Menu */
 .hamburgerMenu {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     width: 60%;
     height: 100vh;
+    margin-left: auto;
     background-color: #fff;
     display:none;
     z-index: 300;
@@ -512,7 +513,7 @@ body {
 }
 @keyframes y {
     100% {
-        transform: translateY(calc(60vh - 300px));
+        transform: translateY(calc(40vh - 300px));
     }
 }
 @keyframes x2 {
@@ -568,6 +569,11 @@ body {
         display: block;
         font-size: 1.5rem;
         margin-top: 30px;
+    }
+    .logo {
+        position: absolute;
+        top: 5px;
+        left: 5px;
     }
   
     /* first section */
