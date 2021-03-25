@@ -10,526 +10,520 @@
 <body>
 
     <div class="container">
-    <!--********************* Start Header ****************************-->
-    <header class="header">
-        <nav class="navbar-menu">
-            <div class="logo"><img src="./images/icons8-favorite-folder-64.png"/></div> 
-            <ul id="navbar-list">
-                <li><a href="#channels"> Channels</a></li>
-                <li><a href="#learn"> Learn</a></li>
-                <li><a href="#projects"> Projects</a></li>
-                <li><a href="#tools">Tools</a></li>
-            </ul>
-            <!-- Side Navigation Menu -->
-            <div id="cover" class="darkCover"></div>
-            <div class="hamburgerIcon" onclick="openIconHandler()">
-              <div id="1" class="line"></div>
-              <div id="2" class="line"></div>
-              <div id="3" class="line"></div>
-            </div>
-            <div id="sideMenu" class="hamburgerMenu">
-              <ul id="sideNavbar">
-                <li><a href="#"> Channels</a></li>
-                <li><a href="#"> Learn</a></li>
-                <li><a href="#"> Projects</a></li>
-                <li><a href="#">Tools</a></li>          
-              </ul>
-            </div> 
-          </nav>
-        <!-- Start Navbar -->
-       
-        <!-- End Navbar -->
-
-        <!-- Start moving circles -->
-        <div class="circle-wrap x"><div class="circle y"></div></div>
-        <div class="circle-wrap x2"><div class="circle y"></div></div>
-        <div class="header-text">Front-End <br> Web Development <br> Sources</div>
-        <!-- End moving circles -->
-
-        <!-- Start Header Content -->
+        <!-----------------------------
+                Start Navbar
+        ------------------------------>
         <div>
-            <img src="./images/—Pngtree—cartoon hand drawn online education_4986516.png" alt="computer">
-            <img src="./images/wave.svg" class="wave" alt="wave">
-            <!-- <div class="list">
-                <ul>
-                    <li>Learning new skills by watching free Arabic and English channels on youtube.</li>
-                    <li>Improve your knowledge by reading a books.</li>
-                    <li>Start practice by solving many quizzes and doing a projects.</li>
-                    <li>Build your website and start your freelance career with several Arabic and English freelance websites.</li>
-                    <li>All sources are Free,</li>
-                    <li>Happy learning</li>
+            <div class="navbar-menu">
+                <div class="logo"><img src="./images/icons8-favorite-folder-64.png"/></div> 
+                <ul id="navbar-list">
+                    <li><a href="#channels"> Channels</a></li>
+                    <li><a href="#learn"> Learn</a></li>
+                    <li><a href="#projects"> Projects</a></li>
+                    <li><a href="#tools">Tools</a></li>
                 </ul>
-            </div> -->
-        </div>
-       
-        <!-- End Header Content -->
-       
-    </header>
-    <!--********************* End Header ****************************-->
 
-    <!--********************* Start Channels Section *******************-->
-    <section id="channels" class="channels-section">
-        <div class="section-container">
-            <div class="channels-section-img"><img src="./images/—Pngtree—modern flat design concept of_5332855.png" alt="people"></div>
-            <div class="channels-section-text">
-                <div>
-                    <p>Arabic Channels</p>
-                    <button id="arabic-channels-btn" onclick="openForm(arabic)">open</button>
-                        <!-- Start Arabic Videos Page [ open when click the button ]-->
-                        <div id="arabic" class="learning-page">
-                            <h2>Arabic Channels</h2>
-                            <button id="arabicCloseBtn" class="closeBtn" onclick="closeForm(arabic)"><img src="./icons/closeB.svg" alt=""></button>
-                            <ul class="videos-list">
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/elzero.jpg" alt="elzero">
-                                    <a href="https://www.youtube.com/user/OsamaElzero">Elzero Web School</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/uniqueCoderz.jpg" alt="UniqueCoderzAcademy">
-                                    <a href="https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g">Unique Coderz Academy</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/nourHomsi.jpg" alt="Nour Homsi">
-                                    <a href="https://www.youtube.com/c/NourHomsi/featured">Nour Homsi</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/semicolon.jpg" alt="semicolon">
-                                    <a href="https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig">SemiColon Academy</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/mohamedAbusrea.jpg" alt="Mohamed Abusrea">
-                                    <a href="https://www.youtube.com/c/MohamedAbusrea/videos">Mohamed Abusrea</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/free4arab.jpg" alt="Free4arab">
-                                    <a href="https://www.youtube.com/channel/UCFOdc57jigXVfIVmsfgokeQ">Free4arab</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/codezilla.jpg" alt="Codezilla">
-                                    <a href="https://www.youtube.com/channel/UCveX_0uBOHVHbpV838OGXVA">Codezilla</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/codehood.jpg" alt="Codehood">
-                                    <a href="https://www.youtube.com/channel/UCoNfslp4XbQULWcE7V4FkZw">Codehood</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/freelanceMonsters.jpg" alt="freelanceMonsters">
-                                    <a href="https://www.youtube.com/channel/UCirZap8QRlZIZ6LdHQoLaxg/videos">وحوش الفريلانس</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- End Arabic Videos Page -->
+                <!-- Side Navigation Menu with Hamburger Icon --> 
+                <div class="hamburgerIcon" onclick="openIconHandler()">
+                  <div id="1" class="line"></div>
+                  <div id="2" class="line"></div>
+                  <div id="3" class="line"></div>
                 </div>
-                <div>
-                    <p>English Channels</p>
-                    <button id="english-channels-btn" onclick="openForm(english)">open</button>
-                        <!-- Start English Videos Page -->
-                        <div id="english" class="learning-page">
-                            <h2>English Channels</h2>
-                            <button id="englishCloseBtn" class="closeBtn" onclick="closeForm(english)"><img src="./icons/closeB.svg" alt=""></button>
-                            <ul class="videos-list">
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/theNetNinja.jpeg" alt="The Net Ninja">
-                                    <a href="https://www.youtube.com/c/TraversyMedia/playlists">The Net Ninja</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/traversyMedia.jpeg" alt="Traversy Media">
-                                    <a href="https://www.youtube.com/c/TheNetNinja/playliststhe">Traversy Media</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/academind.jpeg" alt="Academind">
-                                    <a href="https://www.youtube.com/c/Academind/playlists">Academind</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/GoogleChrome.jpeg" alt="Google Chrome Developers">
-                                    <a href="https://www.youtube.com/c/GoogleChromeDevelopers/playlists">Google Chrome Developers</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/onlineTutorials.jpeg" alt="Online Tutorials">
-                                    <a href="https://www.youtube.com/c/OnlineTutorials4Designers/playlists">Online Tutorials</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/codingAddict.jpeg" alt="Coding Addict">
-                                    <a href="https://www.youtube.com/c/CodingAddict/playlists">Coding Addict</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/devEd.jpeg" alt="Dev Ed">
-                                    <a href="https://www.youtube.com/c/DevEd/playlists">Dev Ed</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/goingToInternet.jpeg" alt="Going-To Internet">
-                                    <a href="https://www.youtube.com/c/GoingToInternet/playlists">Going-To Internet</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/theCodingTrain.jpeg" alt="The Coding Train">
-                                    <a href="https://www.youtube.com/c/TheCodingTrain/playlists">The Coding Train</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/theWebShala.jpeg" alt="The WebShala">
-                                    <a href="https://www.youtube.com/channel/UC94lpQZvaokkIqU-TvtsGXQ/playlists">The WebShala</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/learnWebCode.jpeg" alt="LearnWebCode">
-                                    <a href="https://www.youtube.com/user/LearnWebCode/playlists">LearnWebCode</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/programmingWithMosh.jpeg" alt="Programming with Mosh">
-                                    <a href="https://www.youtube.com/c/programmingwithmosh/playlists">Programming with Mosh</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/udemyTech.jpeg" alt="Udemy Tech">
-                                    <a href="https://www.youtube.com/c/UdemyTech/playlists">Udemy Tech</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/devTips.jpeg" alt="DevTips">
-                                    <a href="https://www.youtube.com/c/DevTipsForDesigners/playlists">DevTips</a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/" alt="">
-                                    <a href=""></a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/" alt="">
-                                    <a href=""></a>
-                                </li>
-                                <li class="channel-card">
-                                    <img src="./channelsLogo/" alt="">
-                                    <a href=""></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- End English Videos Page -->
+
+                <div id="cover" class="darkCover"></div>
+                <div id="sideMenu" class="hamburgerMenu">
+                  <ul id="sideNavbar">
+                    <li><a href="#"> Channels</a></li>
+                    <li><a href="#"> Learn</a></li>
+                    <li><a href="#"> Projects</a></li>
+                    <li><a href="#">Tools</a></li>          
+                  </ul>
+                </div> 
+                   
+              </div>
+        </div>
+        <!--***** End Navbar *****-->
+
+        <!-----------------------------
+                Start Header 
+        ------------------------------>
+        <header class="header"> 
+            <!-- Start moving circles -->
+            <div class="circle-wrap x"><div class="circle y"></div></div>
+            <div class="circle-wrap x2"><div class="circle y"></div></div>
+            <!-- End moving circles -->
+            <div class="header-text">Front-End <br> Web Development <br> Sources</div>
+            <div>
+                <img src="./images/—Pngtree—cartoon hand drawn online education_4986516.png" alt="computer">
+                <img src="./images/wave.svg" class="wave" alt="wave">
+            </div>       
+        </header>
+        <!--***** End Header *****-->
+
+        <!-----------------------------
+            Start Channels Section 
+        ------------------------------>
+        <section id="channels" class="channels-section">
+            <div class="section-container">
+                <div class="channels-section-img"><img src="./images/—Pngtree—modern flat design concept of_5332855.png" alt="people"></div>
+                <div class="channels-section-text">
+                    <!-- Start Arabic channels-->
+                    <div>
+                        <p>Arabic Channels</p>
+                        <button id="arabic-channels-btn" onclick="openForm(arabic)">open</button>
+                            <div id="arabic" class="learning-page">
+                                <h2>Arabic Channels</h2>
+                                <button id="arabicCloseBtn" class="closeBtn" onclick="closeForm(arabic)"><img src="./icons/closeB.svg" alt=""></button>
+                                <ul class="videos-list">
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/elzero.jpg" alt="elzero">
+                                        <a href="https://www.youtube.com/user/OsamaElzero">Elzero Web School</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/uniqueCoderz.jpg" alt="UniqueCoderzAcademy">
+                                        <a href="https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g">Unique Coderz Academy</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/nourHomsi.jpg" alt="Nour Homsi">
+                                        <a href="https://www.youtube.com/c/NourHomsi/featured">Nour Homsi</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/semicolon.jpg" alt="semicolon">
+                                        <a href="https://www.youtube.com/channel/UCuwTHYdMavwEPsZ6OAkXfig">SemiColon Academy</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/mohamedAbusrea.jpg" alt="Mohamed Abusrea">
+                                        <a href="https://www.youtube.com/c/MohamedAbusrea/videos">Mohamed Abusrea</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/free4arab.jpg" alt="Free4arab">
+                                        <a href="https://www.youtube.com/channel/UCFOdc57jigXVfIVmsfgokeQ">Free4arab</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/codezilla.jpg" alt="Codezilla">
+                                        <a href="https://www.youtube.com/channel/UCveX_0uBOHVHbpV838OGXVA">Codezilla</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/codehood.jpg" alt="Codehood">
+                                        <a href="https://www.youtube.com/channel/UCoNfslp4XbQULWcE7V4FkZw">Codehood</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/freelanceMonsters.jpg" alt="freelanceMonsters">
+                                        <a href="https://www.youtube.com/channel/UCirZap8QRlZIZ6LdHQoLaxg/videos">وحوش الفريلانس</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <!-- End Arabic channels-->
+
+                    <!-- Start English channels-->
+                    <div>
+                        <p>English Channels</p>
+                        <button id="english-channels-btn" onclick="openForm(english)">open</button>
+                            <div id="english" class="learning-page">
+                                <h2>English Channels</h2>
+                                <button id="englishCloseBtn" class="closeBtn" onclick="closeForm(english)"><img src="./icons/closeB.svg" alt=""></button>
+                                <ul class="videos-list">
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/theNetNinja.jpeg" alt="The Net Ninja">
+                                        <a href="https://www.youtube.com/c/TraversyMedia/playlists">The Net Ninja</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/traversyMedia.jpeg" alt="Traversy Media">
+                                        <a href="https://www.youtube.com/c/TheNetNinja/playliststhe">Traversy Media</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/academind.jpeg" alt="Academind">
+                                        <a href="https://www.youtube.com/c/Academind/playlists">Academind</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/GoogleChrome.jpeg" alt="Google Chrome Developers">
+                                        <a href="https://www.youtube.com/c/GoogleChromeDevelopers/playlists">Google Chrome Developers</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/onlineTutorials.jpeg" alt="Online Tutorials">
+                                        <a href="https://www.youtube.com/c/OnlineTutorials4Designers/playlists">Online Tutorials</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/codingAddict.jpeg" alt="Coding Addict">
+                                        <a href="https://www.youtube.com/c/CodingAddict/playlists">Coding Addict</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/devEd.jpeg" alt="Dev Ed">
+                                        <a href="https://www.youtube.com/c/DevEd/playlists">Dev Ed</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/goingToInternet.jpeg" alt="Going-To Internet">
+                                        <a href="https://www.youtube.com/c/GoingToInternet/playlists">Going-To Internet</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/theCodingTrain.jpeg" alt="The Coding Train">
+                                        <a href="https://www.youtube.com/c/TheCodingTrain/playlists">The Coding Train</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/theWebShala.jpeg" alt="The WebShala">
+                                        <a href="https://www.youtube.com/channel/UC94lpQZvaokkIqU-TvtsGXQ/playlists">The WebShala</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/learnWebCode.jpeg" alt="LearnWebCode">
+                                        <a href="https://www.youtube.com/user/LearnWebCode/playlists">LearnWebCode</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/programmingWithMosh.jpeg" alt="Programming with Mosh">
+                                        <a href="https://www.youtube.com/c/programmingwithmosh/playlists">Programming with Mosh</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/udemyTech.jpeg" alt="Udemy Tech">
+                                        <a href="https://www.youtube.com/c/UdemyTech/playlists">Udemy Tech</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/devTips.jpeg" alt="DevTips">
+                                        <a href="https://www.youtube.com/c/DevTipsForDesigners/playlists">DevTips</a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/" alt="">
+                                        <a href=""></a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/" alt="">
+                                        <a href=""></a>
+                                    </li>
+                                    <li class="channel-card">
+                                        <img src="./channelsLogo/" alt="">
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <!-- End English channels-->
                 </div>
             </div>
-        </div>
-    </section>
-    <!--********************* End Channels Section *********************-->
-    
-    <!--********************* Start Subjects Section ******************-->
-    <section class="subjects-section">
-        <div class="section-container">
-            <div id="learn" class="card">
-                <div class="title">Learn</div>
-                <ul>
-                    <!-- Start HTML Page -->
-                    <li id="html"><a href="#htmlForm" onclick="openForm(htmlForm)"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a>
-                        <div id="htmlForm" class="learning-page">
-                            <div class="title">HTML Page</div>
-                            <button id="htmlCloseBtn" class="closeBtn" onclick="closeForm(htmlForm)"><img src="./icons/closeB.svg" alt=""></button>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Videos</p>
-                                    <li><a href="https://www.youtube.com/watch?v=q3yFo-t1ykw">Abdelrahman Gamal</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji">Elzero Web School</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=8dO3iDegZ9o&list=PLHIfW1KZRIfnXKjZ9UcT5BVt9x19BlItX">Hassouna Academy</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=yFCUhQONVGA">Nour Homsi</a></li>
-                                    <p>English Videos</p>
-                                    <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">Programming with Mosh</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy Media</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">freeCodeCamp.org</a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Cheat Sheets</p>
-                                    <div class="rtlDir">
-                                        <li><a href="https://wiki.hsoub.com/HTML">HTML - موسوعة حسوب</a></li>
-                                        <li><a href="https://courses4arab.com/html/%D9%85%D8%B9-%D8%A7%D9%84%D8%B4%D8%B1%D8%AD-html-%D8%AC%D9%85%D9%8A%D8%B9-%D9%88%D8%B3%D9%88%D9%85/">جميع وسوم HTML مع الشرح</a></li>
+        </section>
+        <!--***** End Channels Section *****-->
+        
+        
+        <!-----------------------------
+            Start Subjects Section 
+        ------------------------------>      
+        <section class="subjects-section">
+            <div class="section-container">
+                <div id="learn" class="card">
+                    <div class="title">Learn</div>
+                    <ul>
+                        <!-- Start HTML Page -->
+                        <li id="html"><a href="#htmlForm" onclick="openForm(htmlForm)"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a>
+                            <div id="htmlForm" class="learning-page">
+                                <div class="title">HTML Page</div>
+                                <button id="htmlCloseBtn" class="closeBtn" onclick="closeForm(htmlForm)"><img src="./icons/closeB.svg" alt=""></button>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Videos</p>
+                                        <li><a href="https://www.youtube.com/watch?v=q3yFo-t1ykw">Abdelrahman Gamal</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji">Elzero Web School</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=8dO3iDegZ9o&list=PLHIfW1KZRIfnXKjZ9UcT5BVt9x19BlItX">Hassouna Academy</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=yFCUhQONVGA">Nour Homsi</a></li>
+                                        <p>English Videos</p>
+                                        <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU">Programming with Mosh</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy Media</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">freeCodeCamp.org</a></li>
                                         <li><a href=""></a></li>
-                                    </div>
-                                    <p>Cheat sheets</p>
-                                    <li><a href="https://html.com/wp-content/uploads/html-cheat-sheet.pdf">HTML CHEAT SHEET[pdf]</a></li>
-                                    <li><a href="https://www.w3schools.com/tags/default.asp">HTML Element Reference</a></li>
-                                    <li><a href="https://digital.com/tools/html-cheatsheet/">HTML CHEAT SHEET</a></li>
-                                </ul>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Cheat Sheets</p>
+                                        <div class="rtlDir">
+                                            <li><a href="https://wiki.hsoub.com/HTML">HTML - موسوعة حسوب</a></li>
+                                            <li><a href="https://courses4arab.com/html/%D9%85%D8%B9-%D8%A7%D9%84%D8%B4%D8%B1%D8%AD-html-%D8%AC%D9%85%D9%8A%D8%B9-%D9%88%D8%B3%D9%88%D9%85/">جميع وسوم HTML مع الشرح</a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>Cheat sheets</p>
+                                        <li><a href="https://html.com/wp-content/uploads/html-cheat-sheet.pdf">HTML CHEAT SHEET[pdf]</a></li>
+                                        <li><a href="https://www.w3schools.com/tags/default.asp">HTML Element Reference</a></li>
+                                        <li><a href="https://digital.com/tools/html-cheatsheet/">HTML CHEAT SHEET</a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Books</p>
+                                        <div class="rtlDir">
+                                            <li><a href="https://developer.mozilla.org/ar/docs/Learn/Getting_started_with_the_web/HTML_basics">أساسيات HTML</a></li>
+                                            <li><a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AA%D8%B9%D9%84%D9%85-html-%D9%84%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86-pdf">تحميل كتاب تعلم html للمبتدئين pdf</a></li>
+                                            <li><a href="https://books-library.online/free-158943293-download"> قراءة كتاب ملخص وأهم المعلومات عن أكواد لغة الHTML أونلاين</a></li>
+                                            <li><a href="https://download-internet-pdf-ebooks.com/27-1-library-books">كتب كتب اتش تي ام ال</a></li>
+                                        </div>
+                                        <p>English Books</p>
+                                        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a></li>
+                                        <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Books</p>
-                                    <div class="rtlDir">
-                                        <li><a href="https://developer.mozilla.org/ar/docs/Learn/Getting_started_with_the_web/HTML_basics">أساسيات HTML</a></li>
-                                        <li><a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AA%D8%B9%D9%84%D9%85-html-%D9%84%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86-pdf">تحميل كتاب تعلم html للمبتدئين pdf</a></li>
-                                        <li><a href="https://books-library.online/free-158943293-download"> قراءة كتاب ملخص وأهم المعلومات عن أكواد لغة الHTML أونلاين</a></li>
-                                        <li><a href="https://download-internet-pdf-ebooks.com/27-1-library-books">كتب كتب اتش تي ام ال</a></li>
-                                    </div>
-                                    <p>English Books</p>
-                                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a></li>
-                                    <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- End HTML Page -->
+                        </li>
+                        <!-- End HTML Page -->
 
-                    <!-- Start css Page -->
-                    <li id="css"><a href="#cssForm" onclick="openForm(cssForm)"><img src="./icons/css.svg" alt="cssIcon" class="icon"> CSS</a>
-                        <div id="cssForm" class="learning-page">
-                            <div class="title">CSS Page</div>
-                            <button class="closeBtn" onclick="closeForm(cssForm)"><img src="./icons/closeB.svg" alt=""></button>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <p>English Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
+                        <!-- Start css Page -->
+                        <li id="css"><a href="#cssForm" onclick="openForm(cssForm)"><img src="./icons/css.svg" alt="cssIcon" class="icon"> CSS</a>
+                            <div id="cssForm" class="learning-page">
+                                <div class="title">CSS Page</div>
+                                <button class="closeBtn" onclick="closeForm(cssForm)"><img src="./icons/closeB.svg" alt=""></button>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <p>English Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Cheat Sheets</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>Cheat sheets</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Books</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>English Books</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Cheat Sheets</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>Cheat sheets</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Books</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>English Books</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- End css Page -->
+                        </li>
+                        <!-- End css Page -->
 
-                    <!-- Start javaScript Page -->
-                    <li id="js"><a href="#jsForm" onclick="openForm(jsForm)"><img src="./icons/javascript.svg" alt="jsIcon" class="icon"> JavaScript</a>
-                        <div id="jsForm" class="learning-page">
-                            <div class="title">JavaScript Page</div>
-                            <button class="closeBtn" onclick="closeForm(jsForm)"><img src="./icons/closeB.svg" alt=""></button>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <p>English Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
+                        <!-- Start javaScript Page -->
+                        <li id="js"><a href="#jsForm" onclick="openForm(jsForm)"><img src="./icons/javascript.svg" alt="jsIcon" class="icon"> JavaScript</a>
+                            <div id="jsForm" class="learning-page">
+                                <div class="title">JavaScript Page</div>
+                                <button class="closeBtn" onclick="closeForm(jsForm)"><img src="./icons/closeB.svg" alt=""></button>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <p>English Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Cheat Sheets</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>Cheat sheets</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Books</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>English Books</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Cheat Sheets</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>Cheat sheets</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Books</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>English Books</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- End javaScript Page -->
+                        </li>
+                        <!-- End javaScript Page -->
 
-                    <!-- Start git Page -->
-                    <li id="git"><a href="#gitForm" onclick="openForm(gitForm)"><img src="./icons/git.svg" alt="gitIcon" class="icon"> Git</a>
-                        <div id="gitForm" class="learning-page">
-                            <div class="title">Git Page</div>
-                            <button class="closeBtn" onclick="closeForm(gitForm)"><img src="./icons/closeB.svg" alt=""></button>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <p>English Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
+                        <!-- Start git Page -->
+                        <li id="git"><a href="#gitForm" onclick="openForm(gitForm)"><img src="./icons/git.svg" alt="gitIcon" class="icon"> Git</a>
+                            <div id="gitForm" class="learning-page">
+                                <div class="title">Git Page</div>
+                                <button class="closeBtn" onclick="closeForm(gitForm)"><img src="./icons/closeB.svg" alt=""></button>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <p>English Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Cheat Sheets</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>Cheat sheets</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Books</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>English Books</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Cheat Sheets</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>Cheat sheets</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Books</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>English Books</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- End git Page -->
+                        </li>
+                        <!-- End git Page -->
 
-                    <!-- Start github Page -->
-                    <li id="github"><a href="#githubForm" onclick="openForm(githubForm)"><img src="./icons/github.svg" alt="githubIcon" class="icon"> GitHub</a>
-                        <div id="githubForm" class="learning-page">
-                            <div class="title">GitHub Page</div>
-                            <button class="closeBtn" onclick="closeForm(githubForm)"><img src="./icons/closeB.svg" alt=""></button>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <p>English Videos</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
+                        <!-- Start github Page -->
+                        <li id="github"><a href="#githubForm" onclick="openForm(githubForm)"><img src="./icons/github.svg" alt="githubIcon" class="icon"> GitHub</a>
+                            <div id="githubForm" class="learning-page">
+                                <div class="title">GitHub Page</div>
+                                <button class="closeBtn" onclick="closeForm(githubForm)"><img src="./icons/closeB.svg" alt=""></button>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <p>English Videos</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Cheat Sheets</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>Cheat sheets</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="subject-page-section">
+                                    <ul class="subject-page-list">
+                                        <p>Arabic Books</p>
+                                        <div class="rtlDir">
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                            <li><a href=""></a></li>
+                                        </div>
+                                        <p>English Books</p>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Cheat Sheets</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>Cheat sheets</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                            <div class="subject-page-section">
-                                <ul class="subject-page-list">
-                                    <p>Arabic Books</p>
-                                    <div class="rtlDir">
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                        <li><a href=""></a></li>
-                                    </div>
-                                    <p>English Books</p>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- End github Page -->
-                </ul>
+                        </li>
+                        <!-- End github Page -->
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="title">Create</div>
+                    <ul>
+                        <li><a href="#">Header</a></li>
+                        <li><a href="#">Navbar</a></li>
+                        <li><a href="#">Nice Buttons</a></li>
+                        <li><a href="#">Animation Elements</a></li>
+                        <li><a href="#">Hamburger Menu</a></li>
+                    </ul>
+                </div>
+                <div id="projects" class="card">
+                    <div class="title">Arabic Projects</div>
+                    <ul style="direction: rtl; padding-right: 15px;">
+                        <li>المشروع الاول</li>
+                        <li>المشروع التاني</li>
+                        <li>المشروع التالت</li>
+                        <li>المشروع الرابع</li>
+                        <li>المشروع الخامس</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="title">English Projects</div>
+                    <ul>
+                        <li>Project One</li>
+                        <li>Project Two</li>
+                        <li>Project Three</li>
+                        <li>Project Four</li>
+                        <li>Project Five</li>
+                    </ul>
+                </div>
+                <div id="tools" class="card">
+                    <div class="title">Tools</div>
+                    <ul>
+                        <li><a href="#">Colors</a></li>
+                        <li><a href="#">Fonts</a></li>
+                        <li><a href="#">Icons</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><a href="#">Get Waves</a></li>
+                        <li><a href="#">Border Shape Generator</a></li>
+                        <li><a href="https://9elements.github.io/fancy-border-radius/#66.65.30.92--541.541">Fancy border Generator</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="card">
-                <div class="title">Create</div>
-                <ul>
-                    <li><a href="#">Header</a></li>
-                    <li><a href="#">Navbar</a></li>
-                    <li><a href="#">Nice Buttons</a></li>
-                    <li><a href="#">Animation Elements</a></li>
-                    <li><a href="#">Hamburger Menu</a></li>
-                </ul>
+        </section>
+        <!--***** End Subjects Section *****-->
+        
+        
+        <!-----------------------------
+            Start ### Section 
+        ------------------------------>  
+        <section>
+            <div>
+                
             </div>
-            <div id="projects" class="card">
-                <div class="title">Arabic Projects</div>
-                <ul style="direction: rtl; padding-right: 15px;">
-                    <li>المشروع الاول</li>
-                    <li>المشروع التاني</li>
-                    <li>المشروع التالت</li>
-                    <li>المشروع الرابع</li>
-                    <li>المشروع الخامس</li>
-                </ul>
-            </div>
-            <div class="card">
-                <div class="title">English Projects</div>
-                <ul>
-                    <li>Project One</li>
-                    <li>Project Two</li>
-                    <li>Project Three</li>
-                    <li>Project Four</li>
-                    <li>Project Five</li>
-                </ul>
-            </div>
-            <div id="tools" class="card">
-                <div class="title">Tools</div>
-                <ul>
-                    <li><a href="#">Colors</a></li>
-                    <li><a href="#">Fonts</a></li>
-                    <li><a href="#">Icons</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#">Get Waves</a></li>
-                    <li><a href="#">Border Shape Generator</a></li>
-                    <li><a href="https://9elements.github.io/fancy-border-radius/#66.65.30.92--541.541">Fancy border Generator</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--********************* End Subjects Section ********************-->
-    
-    <!--********************* Start Third Section *******************-->
-    <section>
-        <div>
-            
-        </div>
-    </section>
-    <!--********************* End Third Section *********************-->
-    
-    <!--********************* Start Fourth Section ******************-->
-    <section>
-        <div>
-            
-        </div>
-    </section>
-    <!--********************* End Fourth Section ********************-->
+        </section>
+        <!--***** End ### Section *****-->
 </div> 
 <script src="./app.js"></script>
 </body>
