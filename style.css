@@ -68,7 +68,7 @@ body {
     border-bottom: 1px solid #f5d94e;
     transition: all 0.3s ease-in-out;
 }
-.navbar-menu .menu__link {
+/* .navbar-menu .menu__link {
     display: block;
     padding: 1em;
     font-weight: bold;
@@ -79,9 +79,9 @@ body {
 .navbar-menu .menu__link:hover,
 .link__active {
     border-bottom: 3px solid #f5d94e;
-    color: #f5d94e;
+    color: #f0222c;
     transition: ease 0.3s all;
-}
+} */
 .navbar-menu.scroll {
     background-color: #3f1246;
 } 
@@ -138,8 +138,7 @@ body {
 
 /* Start Side Menu */
 .hamburgerMenu {
-    background-color: #f5d94e;
-    color: black;
+    background-color: #eee;
     width: 60%;
     height: 100%;
     position: fixed;
@@ -160,9 +159,17 @@ body {
 }
 .hamburgerMenu li {
     display: block;
+    margin-top: 20px;
 }
 .hamburgerMenu a {
     color: #3f1246;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.hamburgerMenu a:hover {
+    color: #eee;
+    background-color: #3f1246;   
 }
 .hamburgerMenu.open {
     clip-path: circle(1000px at 90% 10%);
@@ -202,6 +209,13 @@ body {
     padding-top: 10px;
     padding-left: 10px;
  }
+.header span {
+    color: #3f1246;
+    background-color: #f5d94e;
+    border: 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .header img:first-child {
     width: 500px;
     height: 500px;
@@ -523,7 +537,7 @@ body {
  @media (max-width: 576px) {
     /*  header  */
     .header {
-        height: 100vh;
+        height: 70vh;
     }
     .header h1 {
     font-size: 1.5rem;
