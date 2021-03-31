@@ -118,7 +118,7 @@ body {
     margin-top: 30px;
     position: absolute;
     transform: rotate(125deg);
-    transition: all 1s ease;
+    transition: all 0.4s ease;
     -webkit-transform: rotate(125deg);
     -moz-transform: rotate(125deg);
     -ms-transform: rotate(125deg);
@@ -128,7 +128,7 @@ body {
     position: absolute;
     margin-top: 30px;
     transform: rotate(55deg);
-    transition: all 1s ease;
+    transition: all 10.4 ease;
     -webkit-transform: rotate(55deg);
     -moz-transform: rotate(55deg);
     -ms-transform: rotate(55deg);
@@ -381,15 +381,15 @@ body {
     list-style-position: inside;
 }
 .subjects-section ul li {
-    margin: 15px;
+    margin: 15px auto;
 }
-.subjects-section ul li::before {
+/* .subjects-section ul li::before {
     content: "\2022";
     color: #f5d94e;
     font-weight: 300;
     display: inline-block; 
     width: 1.5em;
-}
+} */
 .subjects-section .icon {
     width: 30px;
     height: 40px;
@@ -435,6 +435,48 @@ body {
     flex-direction: column;
     text-align: right;
 }
+.subject-page-card {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #eee;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+    padding-bottom: 5px;
+}
+/* Start Subject Page Video Card */
+.subject-page-card-title {
+    background-color: #3f1246;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 110%;
+    padding: 5px 0;
+    border: 0.2px solid #f5d94e;
+}
+.subject-page-card-img {
+    width: 25%;
+    border-right: 1px solid #3f1246;
+    display: inline-block;
+    text-align: center;
+}
+.subject-page-card-img img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+.subject-page-card-content {
+    width: 65%;
+    display: inline-block;
+    text-align: center;
+}
+.subject-page-card-content a {
+    color: #55165E;
+    font-size: 1.2rem;
+}
+.vid-date {
+    color: rgba(0, 0, 0, 0.3);
+}
+/* End Subject Page Video Card */
 #htmlForm {
     display: none;
 }
@@ -492,10 +534,10 @@ body {
     height: 300px;
 }
 .x {
-    animation: x 13s linear infinite alternate;
+    animation: x 10s linear infinite alternate;
 }
 .y {
-    animation: y 7s linear infinite alternate;
+    animation: y 5s linear infinite alternate;
 }
 .x2 {
     background-color: #856a896f;
@@ -505,7 +547,7 @@ body {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    animation: x2 13s linear infinite alternate;
+    animation: x2 10s linear infinite alternate;
 }
 
 /******************
@@ -537,7 +579,7 @@ body {
  @media (max-width: 576px) {
     /*  header  */
     .header {
-        height: 70vh;
+        height: 95vh;
     }
     .header h1 {
     font-size: 1.5rem;
