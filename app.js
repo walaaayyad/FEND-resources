@@ -1,5 +1,6 @@
 
 const htmlForm = document.getElementById('htmlForm'),
+      frontEndForm = document.getElementById('frontEndForm'),
       cssForm = document.getElementById('cssForm'),
       jsForm = document.getElementById('jsForm'),
       gitForm = document.getElementById('gitForm'),
