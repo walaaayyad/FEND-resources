@@ -641,6 +641,9 @@ body {
     .subjects-section a {
         font-size: 1.2rem;
     }
+    .subject-page-card {
+        width: 100%;
+    }
  }
 
  /**** For Medium Screen with max width 768px ****/
