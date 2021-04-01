@@ -4,7 +4,9 @@ const htmlForm = document.getElementById('htmlForm'),
       cssForm = document.getElementById('cssForm'),
       jsForm = document.getElementById('jsForm'),
       gitForm = document.getElementById('gitForm'),
-      githubForm = document.getElementById('githubForm');
+      githubForm = document.getElementById('githubForm'),
+      arabicProject = document.getElementById('arabicProject'),
+      englishProject = document.getElementById('englishProject');
 /************ navbar **************/
 let navbar = document.querySelector('.navbar-menu'),
     navList = document.getElementById('navbar-list');

@@ -396,6 +396,13 @@ body {
     margin-right: 5px;
     padding-top: 10px;
 }
+.subjects-section .icon2 {
+    width: 40px;
+    height: 50px;
+    margin-left: -5px;
+    margin-right: 3px;
+    margin-bottom: -10px;
+}
 .subjects-section a {
     text-decoration: none;
     color: #fff;
@@ -522,8 +529,64 @@ body {
 /* end subject form */
 /***************** end subjects section *******************/
 
-/***************** start ## section *****************/
-/***************** end ## section *******************/
+/***************** start Projects section *****************/
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.projects-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.projects-img {
+    width: 55%;
+}
+.projects-section-btn {
+    width: 50%;
+    height: 50px;
+    margin: 15px;
+    font-size: 120%;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: #f5d94ed9;
+    background-color: #6f257a;
+    box-shadow: 
+       12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+      -8px -5px 12px 0 rgba(255, 255, 255, 0.3)
+}
+.projects-section-btn:active {
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  
+    /*concave effect*/
+    background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25))
+}
+.projects-section-btn:focus {
+    outline: none;
+}
+#arabicProjectForm {
+    display: none;
+}
+#arabicProjectForm.open {
+    display: block;
+}
+#englishProjectForm {
+    display: none;
+}
+#englishProjectForm.open {
+    display: block;
+}
+/***************** end Projects section *******************/
 
 /***************** start ## section *****************/
 /***************** end ## section *******************/
@@ -643,7 +706,7 @@ body {
     .channels-section-img img {
         width: inherit;
     }
-    /* second section */
+    /* subjects section */
     .subjects-section ul {
         column-count: 1;
     }
@@ -653,7 +716,17 @@ body {
     .subject-page-card {
         width: 100%;
     }
- }
+    /* projects section */
+    .projects-img {
+        width: 90%;
+    }
+    .projects-item {
+        width: 90%;
+    }
+    .projects-section-btn {
+        width: 80%;
+    }
+}
 
  /**** For Medium Screen with max width 768px ****/
  @media (min-width: 577px) and (max-width: 768px) {
@@ -663,5 +736,12 @@ body {
     }
     .subject-page-card {
         width: 90%;
+    }
+    /* projects section */
+    .projects-img {
+        width: 45%;
+    }
+    .projects-section-btn {
+        width: 70%;
     }
  }
