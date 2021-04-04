@@ -264,13 +264,16 @@ body {
     font-weight: 600;
 }
 .channels-section-text button {
-    width: 100px;
-    background-color: #732281;
-    color: white;
-    padding: 3px;
+    width: 50%;
+    height: 50px;
+    color: #3f1246;
+    margin: 10px;
     font-size: 24px;
-    border-radius: 10%;
+    font-weight: 600;
+    border-radius: 30px;
     cursor: pointer;
+    box-shadow: 12px 12px 16px 0 #7322813d, -8px -8px 12px 0 rgb(255 255 255 / 30%);
+    background: linear-gradient(-5deg, #5a2a9c, rgba(255,255,255,0.25));
 }
 /*** start channels list ***/
 #arabic {
@@ -546,7 +549,7 @@ body {
     margin-bottom: 10px;
 }
 .projects-img {
-    width: 55%;
+    width: 40%;
 }
 .projects-section-btn {
     width: 50%;
@@ -561,7 +564,7 @@ body {
     background-color: #6f257a;
     box-shadow: 
        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-      -8px -5px 12px 0 rgba(255, 255, 255, 0.3)
+      -8px -5px 12px 0 rgba(255, 255, 255, 0.15)
 }
 .projects-section-btn:active {
     box-shadow: 
@@ -632,7 +635,7 @@ body {
 }
 @keyframes y {
     100% {
-        transform: translateY(calc(40vh - 300px));
+        transform: translateY(calc(20vh - 300px));
     }
 }
 @keyframes x2 {
@@ -693,6 +696,9 @@ body {
         position: absolute;
         top: 5px;
         left: 5px;
+    }
+    .circle {
+        width: 285px;
     }
   
     /* first section */
