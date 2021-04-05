@@ -435,11 +435,13 @@ body {
     flex-direction: inherit !important;
 }
 .subject-page-list p {
+    width: 60%;
     font-size: 1.5rem;
     color: #f5d94e;
-    margin: auto;
-    border-bottom: 2px solid;
+    text-align: center;
+    border-bottom: 1px solid;
     padding-bottom: 5px;
+    margin-bottom: inherit;
 }
 .rtlDir {
     direction: rtl;
@@ -491,6 +493,9 @@ background: linear-gradient(135deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
     font-size: 1.2rem;
 }
 .vid-date {
+    color: rgba(0, 0, 0, 0.3);
+}
+.language {
     color: rgba(0, 0, 0, 0.3);
 }
 /* End Subject Page Video Card */
@@ -758,6 +763,9 @@ background: linear-gradient(135deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
         width: 45%;
     }
     .projects-section-btn {
+        width: 70%;
+    }
+    .channels-section-text button {
         width: 70%;
     }
  }

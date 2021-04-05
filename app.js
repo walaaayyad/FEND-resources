@@ -56,10 +56,10 @@ const activeCurrentSection = ()=> {
 const changeBackgroud = ()=> {
     if(window.scrollY >= 70) {
       navbar.classList.add('scroll');
-      scrollUpBtn.classList.remove('hidden');
+      // scrollUpBtn.classList.remove('hidden');
     }else{
       document.querySelector('.navbar-menu').classList.remove('scroll');
-      scrollUpBtn.classList.add('hidden');
+      // scrollUpBtn.classList.add('hidden');
   
     }
   }
@@ -89,3 +89,4 @@ window.addEventListener('scroll', ()=> {
   changeBackgroud();
 }
 );
+
