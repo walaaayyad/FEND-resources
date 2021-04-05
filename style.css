@@ -420,16 +420,19 @@ body {
     padding: 8px;
 }
 .subject-page-section {
-    width: 95%;
+    width: 100%;
     margin: auto;
     background-image: linear-gradient(to right, #211024, #3f1246, #561860, #6f257a, #9827a8);
 }
 .subject-page-list {
-    flex-direction: column; 
+    /* flex-direction: column; 
     column-count: 2;
     column-gap: 20px;
     column-fill: auto;
-    list-style-position: inside;
+    list-style-position: inside; */
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: inherit !important;
 }
 .subject-page-list p {
     font-size: 1.5rem;
@@ -446,7 +449,7 @@ body {
     text-align: right;
 }
 .subject-page-card {
-    width: 50%;
+    width: 45%;
     border: none;
     border-radius: 10px;
     background-color: #eee;
@@ -455,13 +458,17 @@ body {
 }
 /* Start Subject Page Video Card */
 .subject-page-card-title {
-    background-color: #3f1246;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    font-size: 110%;
-    padding: 5px 0;
-    border: 0.2px solid #f5d94e;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    background: #ddbb14;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+background: -moz-linear-gradient(-45deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
+background: -webkit-linear-gradient(-45deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
+background: linear-gradient(135deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
 }
 .subject-page-card-img {
     width: 25%;
@@ -731,6 +738,9 @@ body {
     }
     .projects-section-btn {
         width: 80%;
+    }
+    .channels-section-text button {
+        width: 85%;
     }
 }
 
