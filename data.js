@@ -6,42 +6,10 @@ let frontPage = document.getElementById('frontPage'),
     jsPage = document.getElementById('jsPage'),
     gitPage = document.getElementById('jsPage'),
     githubPage = document.getElementById('jsPage'),
-    aProjectPage = document.getElementById('jsPage'),
-    eprojectPage = document.getElementById('jsPage');
+    aProjectPage = document.getElementById('aProjectPage'),
+    eProjectPage = document.getElementById('eProjectPage');
         
 
-// const data= [
-//   {
-//     totalVid: 5,
-//     totalDur: 1.22,
-//     lang: 'Arabic',
-//     img: '/elzero.jpg',
-//     alt: 'elzero',
-//     date: '2 oct 2020',
-//     ref: 'https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji',
-//     title: 'first vid'
-//   },
-//   {
-//     totalVid: 8,
-//     totalDur: 1.22,
-//     lang: 'Arabic',
-//     img: '/elzero.jpg',
-//     alt: 'elzero',
-//     date: '2 oct 2020',
-//     ref: 'https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji',
-//     title: 'second vid'
-//   },
-//   {
-//     totalVid: 7,
-//     totalDur: 1.22,
-//     lang: 'Arabic',
-//     img: '/elzero.jpg',
-//     alt: 'elzero',
-//     date: '2 oct 2020',
-//     ref: 'https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji',
-//     title: 'third vid'
-//   }
-// ]
 
 const frontEnd = [
     {
@@ -303,67 +271,207 @@ const github = [
 
 const aProject = [
     {
-        totalVid: 2,
-        totalDur: 22,
+        totalVid: 14,
+        totalDur: 1.99,
         lang: 'Arabic',
         img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        alt: 'elzero',
+        date: '31 Mar 2021',
+        ref: 'https://www.youtube.com/watch?v=MBq8ZFEIIaQ&list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF',
+        title: 'HTML And CSS Template 1'
+    },
+    {
+        totalVid: 38,
+        totalDur: 5.31,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '30 Apr 2020',
+        ref: 'https://www.youtube.com/watch?v=vedT2jk3hi4&list=PLDoPjvoNmBAzvmpzF-6l3tAviiCPbwkB8&index=1',
+        title: 'Create Template With HTML, CSS3, JavaScript'
+    },
+    {
+        totalVid: 16,
+        totalDur: 4.30,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '15 Nov 2014',
+        ref: 'https://www.youtube.com/watch?v=urQihL3GTnw&list=PLDoPjvoNmBAxzmjuEpKP8r4sVWEtFvKoq&index=1',
+        title: 'Creating A Website From Preview [ Html, Css Lv1 ]'
+    },
+    {
+        totalVid: 18,
+        totalDur: 4.05,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '15 Sept 2015',
+        ref: 'https://www.youtube.com/watch?v=52s6c4kYx-Y&list=PLDoPjvoNmBAwccMO4JiLP_vJHxJ_NWeqL',
+        title: 'Creating A Website From Preview [ Html, Css, jQuery Lv2 ]'
+    },
+    {
+        totalVid: 18,
+        totalDur: 2.90,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '17 Jan 2016',
+        ref: 'https://www.youtube.com/watch?v=6olupGFs9DA&list=PLDoPjvoNmBAzVWN837CWYXS18LJ69HvRV',
+        title: 'Creating A Website From Preview [ Html, Css3, jQuery Lv3 ]'
+    },
+    {
+        totalVid: 52,
+        totalDur: 13.42,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '4 Jul 2014',
+        ref: 'https://www.youtube.com/watch?v=auFVttzUoo8&list=PLDoPjvoNmBAw24EjNUp_88S1VeaNK8Cts',
+        title: 'Design Using Bootstrap 3 Design 1'
+    },
+    {
+        totalVid: 23,
+        totalDur: 4.39,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '5 Apr 2017',
+        ref: 'https://www.youtube.com/watch?v=SwCQTLB2zoo&list=PLDoPjvoNmBAxYmbhnyM0yxH3OzhoDiAP9',
+        title: 'Design Using Bootstrap 3 Design 2'
+    },
+    {
+        totalVid: 29,
+        totalDur: 4.67,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '4 Oct 2017',
+        ref: 'https://www.youtube.com/watch?v=DbUjq8J6RK8&list=PLDoPjvoNmBAy0dU3C3_lNRTSTtqePEsI2',
+        title: 'Design Using Bootstrap 4 Design 1'
+    },
+    {
+        totalVid: 17,
+        totalDur: 3.25,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '23 Jan 2018',
+        ref: 'https://www.youtube.com/watch?v=s599ucSnBs8&list=PLtFbQRDJ11kG7W2TmVs4gr9FqmZ0Ui551',
+        title: 'Design Responsive Template Using ( HTML - CSS - Media Query )'
+    },
+    {
+        totalVid: 10,
+        totalDur: 1.19,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '4 Jul 2017',
+        ref: 'https://www.youtube.com/watch?v=1anI07Bde6g&list=PLtFbQRDJ11kFq3C3I7sKHjXbFru4rx8qs',
+        title: 'Design Template Using ( HTML 5 - CSS 3 )'
+    },
+    {
+        totalVid: 13,
+        totalDur: 1.89,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '21 Jan 2017',
+        ref: 'https://www.youtube.com/watch?v=FV1JUHo3mA0&list=PLtFbQRDJ11kHL5MyN6kLTr1n4InvKdeis',
+        title: 'Design Template Using ( HTML 5 , CSS 3 , Bootstrap)'
+    },
+    {
+        totalVid: 8,
+        totalDur: 1.15,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '4 Jan 2017',
+        ref: 'https://www.youtube.com/watch?v=MGiqZbnt1n4&list=PLtFbQRDJ11kE3Weby1aZ0wKcgBk_iIlq3',
+        title: 'Design Template Using ( HTML , CSS , jQuery )'
+    },
+    {
+        totalVid: 8,
+        totalDur: 1.69,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '27 Dec 2016',
+        ref: 'https://www.youtube.com/watch?v=hIhpIUPFDhM&list=PLtFbQRDJ11kEvT0fwrz003tAGZP7sIBhI',
+        title: 'Design Template Multiple Pages Using ( HTML & CSS)'
+    },
+    {
+        totalVid: 15,
+        totalDur: 3.48,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '22 Dec 2016',
+        ref: 'https://www.youtube.com/watch?v=0WL7hR__mw8&list=PLtFbQRDJ11kFg64KOH91XV7JkueV3rUvu',
+        title: 'Design Template Using ( HTML 5 - CSS 3 - jQuery )'
+    },
+    {
+        totalVid: 5,
+        totalDur: 1.26,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '4 Dec 2016',
+        ref: 'https://www.youtube.com/watch?v=h9MyENykDLk&list=PLtFbQRDJ11kHihgJYV_6S3j7KhK96cdB1',
+        title: 'Design Template Using ( HTML - CSS - JS )'
+    },
+    {
+        totalVid: 5,
+        totalDur: 1.41,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '3 Dec 2016',
+        ref: 'https://www.youtube.com/watch?v=iE1o-VtwfFw&list=PLtFbQRDJ11kHtc8yjnmdxdoebNMumtlzH',
+        title: 'Design Template Using ( HTML - CSS )'
     },
     {
         totalVid: 2,
         totalDur: 22,
         lang: 'Arabic',
-        img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
-    },
-    {
-        totalVid: 2,
-        totalDur: 22,
-        lang: 'Arabic',
-        img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        img: '/mohamedAbusrea.jpg',
+        alt: 'mohamedAbusrea',
+        date: '6 May 2020',
+        ref: 'https://www.youtube.com/watch?v=IC2XLhYxTOQ&list=PL0_C_32YKLpwetRB-a3Rj0Q4KNuIVocao',
+        title: 'مشاريع صغيرة - HTML, CSS, Javascript'
     }
 ]
 
 const eProject = [
     {
-        totalVid: 2,
-        totalDur: 22,
-        lang: 'Arabic',
-        img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        totalVid: 1,
+        totalDur: 1.12,
+        lang: 'English',
+        img: '/traversyMedia.jpeg',
+        alt: 'traversyMedia',
+        date: '5 Jun 2017',
+        ref: 'https://www.youtube.com/watch?v=qlA7dputiNc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=39',
+        title: 'Build A Responsive HTML & CSS Template With FlexboxGrid'
     },
     {
-        totalVid: 2,
-        totalDur: 22,
-        lang: 'Arabic',
-        img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        totalVid: 1,
+        totalDur: 8.23,
+        lang: 'English',
+        img: '/codingAddict.jpeg',
+        alt: 'codingAddict',
+        date: '30 Apr 2020',
+        ref: 'https://www.youtube.com/watch?v=c5SIG7Ie0dM&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX&index=3',
+        title: '15 Vanilla Javascript Projects'
     },
     {
-        totalVid: 2,
-        totalDur: 22,
-        lang: 'Arabic',
-        img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        totalVid: 14,
+        totalDur: 2.10,
+        lang: 'English',
+        img: '/theNetNinja.jpeg',
+        alt: 'theNetNinja',
+        date: '20 Jan 2020',
+        ref: 'https://www.youtube.com/watch?v=PM3XW_1RAIs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4',
+        title: 'Mobile-First Responsive Build (with CSS Grid)'
     }
 ]
 
@@ -394,3 +502,5 @@ const addvideos= (id, arr)=> {arr.map(i => {
 
 addvideos(frontPage, frontEnd);
 addvideos(htmlPage, html);
+addvideos(aProjectPage, aProject);
+addvideos(eProjectPage, eProject);
