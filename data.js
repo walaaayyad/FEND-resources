@@ -2,7 +2,7 @@
 
 let frontPage = document.getElementById('frontPage'),
     htmlPage = document.getElementById('htmlPage'),
-    cssPage = document.getElementById('jsPage'),
+    cssPage = document.getElementById('cssPage'),
     jsPage = document.getElementById('jsPage'),
     gitPage = document.getElementById('jsPage'),
     githubPage = document.getElementById('jsPage'),
@@ -139,34 +139,104 @@ const html = [
 
 const css = [
     {
-        totalVid: 2,
-        totalDur: 22,
+        totalVid: 88,
+        totalDur: 11.48,
         lang: 'Arabic',
         img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        alt: 'elzero',
+        date: '1 Feb 2021',
+        ref: 'https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe',
+        title: 'Learn CSS In Arabic 2021'
     },
     {
-        totalVid: 2,
-        totalDur: 22,
+        totalVid: 11,
+        totalDur: 2.98,
         lang: 'Arabic',
         img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        alt: 'elzero',
+        date: '12 Nov 2018',
+        ref: 'https://www.youtube.com/watch?v=MBxm7SH7pzM&list=PLDoPjvoNmBAycLCqZ6Fx-FT96cRRuPiBh',
+        title: 'Advanced Html & Css Lessons'
     },
     {
-        totalVid: 2,
-        totalDur: 22,
+        totalVid: 56,
+        totalDur: 10.30,
         lang: 'Arabic',
         img: '/elzero.jpg',
-        alt: '',
-        date: '',
-        ref: '',
-        title: ''
+        alt: 'elzero',
+        date: '25 Oct 2014',
+        ref: 'https://www.youtube.com/watch?v=aBlZ_2rGeb4&list=PLDoPjvoNmBAyEyQaHOHO1HJtmSgGt07VC',
+        title: 'Learn Css3 in Arabic'
+    },
+    {
+        totalVid: 29,
+        totalDur: 5.85,
+        lang: 'Arabic',
+        img: '/elzero.jpg',
+        alt: 'elzero',
+        date: '31 May 2014',
+        ref: 'https://www.youtube.com/watch?v=Iu1T7j2FA4M&list=PLDoPjvoNmBAzAeIcXA3_JsmSkPKOs9W-Y',
+        title: 'Learn Css in Arabic'
+    },
+    {
+        totalVid: 13,
+        totalDur: 1.26,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '12 Jul 2018',
+        ref: 'https://www.youtube.com/watch?v=0KjA2jPIpKY&list=PLtFbQRDJ11kHnEE5SVx_LrfI3o6KgaWC5',
+        title: 'Learn CSS Grid Tutorial || CSS Grid دورة كاملة لتعلم الـ'
+    },
+    {
+        totalVid: 14,
+        totalDur: 0.96,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '28 Dec 2017',
+        ref: 'https://www.youtube.com/watch?v=Wpt6QlhwaWg&list=PLtFbQRDJ11kE--j12SU0X5pnXiM0WsWVQ',
+        title: 'Centering CSS Techniques Tutorial || CSS توسيط اى عنصر افقيا ورأسيا من خلال'
+    },
+    {
+        totalVid: 9,
+        totalDur: 0.99,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'uniqueCoderz',
+        date: '10 Jan 2017',
+        ref: 'https://www.youtube.com/watch?v=vyc7n200yS0&list=PLtFbQRDJ11kG5SWAH-uHqqZtPbUkNm2RY',
+        title: 'Learn Responsive Web Design || دورة تعلم كيفيه جعل الموقع متجاوب'
+    },
+    {
+        totalVid: 28,
+        totalDur: 3.92,
+        lang: 'Arabic',
+        img: '/uniqueCoderz.jpg',
+        alt: 'Unique Coderz',
+        date: '5 Dec 2016',
+        ref: 'https://www.youtube.com/watch?v=aMHr59RCPxI&list=PLtFbQRDJ11kFENgYWivcxJwFKZp815zXX',
+        title: 'Learn CSS Tutorial || CSS دورة كاملة لتعلم لغة'
+    },
+    {
+        totalVid: 9,
+        totalDur: 2.31,
+        lang: 'Arabic',
+        img: '/nourHomsi.jpg',
+        alt: 'nour',
+        date: '3 Oct 2016',
+        ref: 'https://www.youtube.com/watch?v=lXw9TmTlXGE&list=PLPTNqXpQ2tbhqO793XtHPRxEkwnaOMIjR',
+        title: ' CSS3 أهم تعليمات لغة'
+    },
+    {
+        totalVid: 20,
+        totalDur: 4.32,
+        lang: 'Arabic',
+        img: '/free4arab.jpg',
+        alt: 'free4arab',
+        date: '16 Jun 2014',
+        ref: 'https://www.youtube.com/watch?v=ocspM4WL5Ys&list=PLCIJjtzQPZJ_5Da_I6IMJWRtgxQik2Egd',
+        title: 'CSS By Dr.Mohamed Amin'
     }
     ]
 
@@ -504,3 +574,4 @@ addvideos(frontPage, frontEnd);
 addvideos(htmlPage, html);
 addvideos(aProjectPage, aProject);
 addvideos(eProjectPage, eProject);
+addvideos(cssPage, css);
