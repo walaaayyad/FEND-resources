@@ -555,16 +555,19 @@ const eProject = [
 const addvideos= (id, arr)=> {arr.map(i => {
     id.insertAdjacentHTML("beforeend", `
     <li class="subject-page-card">
-    <div class="subject-page-card-title">
-        <h6>Playlist Total Videos (${i.totalVid})</h6>
-        <h6>Playlist Total Duration ( ${i.totalDur} hours)</h6>
-    </div>
-    <div class="subject-page-card-img">
-        <div class="language">${i.lang}</div>
-        <img src="./channelsLogo${i.img}" alt="${i.alt}">
-        <div class="vid-date">${i.date}</div>
-    </div>                          
-    <div class="subject-page-card-content"><a href="${i.ref}">${i.title}</a></div>      
+        <div class="subject-page-card-title">
+            <h6>Playlist Total Videos (${i.totalVid})</h6>
+            <h6>Playlist Total Duration ( ${i.totalDur} hours)</h6>
+        </div>
+        <div class="subject-page-card-img">
+            <div class="language">${i.lang}</div>
+            <img src="./channelsLogo${i.img}" alt="${i.alt}">
+            <div class="vid-date">${i.date}</div>
+        </div>                          
+        <div class="subject-page-card-content"> 
+            <a href="${i.ref}">${i.title}</a>
+            <div>&nbsp</div>
+        </div>      
     </li>
   `)
 })

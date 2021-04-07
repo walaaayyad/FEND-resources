@@ -465,12 +465,12 @@ body {
     justify-content: space-around;
     font-size: 1.5rem;
     padding: 10px 0;
-    background: #ddbb14;
+    padding-left: 15px;
+    border-top: 1px solid #ddbb14;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-background: -moz-linear-gradient(-45deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
-background: -webkit-linear-gradient(-45deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
-background: linear-gradient(135deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
+    background-color: #3f1246;
+
 }
 .subject-page-card-img {
     width: 25%;
@@ -732,7 +732,7 @@ background: linear-gradient(135deg, #ddbb14 0%, #660c76 62%, #76b619c7 100%);
         font-size: 1.2rem;
     }
     .subject-page-card {
-        width: 100%;
+        width: 93%;
     }
     /* projects section */
     .projects-img {
