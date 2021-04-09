@@ -1416,7 +1416,7 @@ const addvideos= (id, arr)=> {arr.map(i => {
             <div class="vid-date">${i.date}</div>
         </div>                          
         <div class="subject-page-card-content"> 
-            <a href="${i.ref}">${i.title}</a>
+            <a href="${i.ref}" target="_blank">${i.title}</a>
             <div>&nbsp</div>
         </div>      
     </li>

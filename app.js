@@ -6,7 +6,8 @@ const htmlForm = document.getElementById('htmlForm'),
       gitForm = document.getElementById('gitForm'),
       githubForm = document.getElementById('githubForm'),
       arabicProject = document.getElementById('arabicProject'),
-      englishProject = document.getElementById('englishProject');
+      englishProject = document.getElementById('englishProject'),
+      scrollUpBtn = document.getElementById('upBtn');
 /************ navbar **************/
 let navbar = document.querySelector('.navbar-menu'),
     navList = document.getElementById('navbar-list');
@@ -56,10 +57,10 @@ const activeCurrentSection = ()=> {
 const changeBackgroud = ()=> {
     if(window.scrollY >= 70) {
       navbar.classList.add('scroll');
-      // scrollUpBtn.classList.remove('hidden');
+      scrollUpBtn.classList.remove('hidden');
     }else{
       document.querySelector('.navbar-menu').classList.remove('scroll');
-      // scrollUpBtn.classList.add('hidden');
+      scrollUpBtn.classList.add('hidden');
   
     }
   }
