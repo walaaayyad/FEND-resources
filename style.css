@@ -68,20 +68,6 @@ body {
     border-bottom: 1px solid #f5d94e;
     transition: all 0.3s ease-in-out;
 }
-/* .navbar-menu .menu__link {
-    display: block;
-    padding: 1em;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-}
-
-.navbar-menu .menu__link:hover,
-.link__active {
-    border-bottom: 3px solid #f5d94e;
-    color: #f0222c;
-    transition: ease 0.3s all;
-} */
 .navbar-menu.scroll {
     background-color: #3f1246;
 } 
@@ -241,7 +227,7 @@ body {
     width: 40px;
     height: 40px;
     padding: 7px;
-    display: block;
+    opacity: 0;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -253,10 +239,10 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     cursor: pointer;
-    transition: all 2s ease;
+    transition: all 1.5s ease;
 }
-#upBtn.hidden {
-    display: none;
+#upBtn.show {
+    opacity: 1;
 }
 /********************* end header **********************/
 
@@ -407,13 +393,6 @@ body {
 .subjects-section ul li {
     margin: 15px auto;
 }
-/* .subjects-section ul li::before {
-    content: "\2022";
-    color: #f5d94e;
-    font-weight: 300;
-    display: inline-block; 
-    width: 1.5em;
-} */
 .subjects-section .icon {
     width: 30px;
     height: 40px;
@@ -446,11 +425,6 @@ body {
     background-image: linear-gradient(to right, #211024, #3f1246, #561860, #6f257a, #9827a8);
 }
 .subject-page-list {
-    /* flex-direction: column; 
-    column-count: 2;
-    column-gap: 20px;
-    column-fill: auto;
-    list-style-position: inside; */
     display: flex !important;
     flex-wrap: wrap;
     flex-direction: inherit !important;
@@ -624,8 +598,18 @@ body {
 }
 /***************** end Projects section *******************/
 
-/***************** start ## section *****************/
-/***************** end ## section *******************/
+/***************** start tools section *****************/
+.tools li a {
+    font-size: 1rem;
+}
+.tools h4 {
+    color: #ddbb14;
+    border-bottom: 1px solid #ddbb14;
+    width: 45%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/***************** end tools section *******************/
 
 
 /*****************
@@ -767,6 +751,13 @@ body {
     }
     .channels-section-text button {
         width: 85%;
+    }
+    /* Tools Section */
+    .tools {
+        text-align: center;
+    }
+    .tools h4 {
+        margin: auto;
     }
 }
 

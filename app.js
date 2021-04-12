@@ -60,12 +60,12 @@ const activeCurrentSection = ()=> {
 
 //5- Function to change navbar color when scroll down [[[ok]]]
 const changeBackgroud = ()=> {
-  if(window.scrollY >= 70) {
+  if(window.scrollY >= 90) {
     navbar.classList.add('scroll');
-    scrollUpBtn.classList.remove('hidden');
+    scrollUpBtn.classList.add('show');
   }else{
     document.querySelector('.navbar-menu').classList.remove('scroll');
-    scrollUpBtn.classList.add('hidden');
+    scrollUpBtn.classList.remove('show');
 
   }
 }
