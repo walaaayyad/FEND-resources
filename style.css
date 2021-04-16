@@ -537,9 +537,37 @@ body {
     display: block;
 }
 /* end subject form */
-/***************** end subjects section *******************/
+/*---- end subjects section -----*/
 
-/***************** start Projects section *****************/
+/***** start read & quiz secti *****/
+.book-quiz-section {
+    width: 75%;
+    height: 150px;
+    background-color: #3f1246;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 3px solid #ddbb14;
+}
+.book-quiz-btn {
+    width: 25%;
+    height: 50px;
+    color: #ddbb14;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%), -4px -4px 12px 0 rgb(255 255 255 / 30%);
+    background: linear-gradient( 
+        20deg, #3f1246, rgba(255,255,255,0.25));
+    border: none;
+}
+ /*---- end read & quiz section ----*/
+
+/***** start Projects section *****/
 .projects-section {
     display: flex;
     flex-wrap: wrap;
@@ -739,6 +767,15 @@ body {
     .subject-page-card {
         width: 93%;
     }
+    /* book-quiz-section*/
+    .book-quiz-section {
+        height: inherit;
+        padding: 20px 0;
+    }
+    .book-quiz-btn {
+        width: 80%;
+        margin: 20px;
+    }
     /* projects section */
     .projects-img {
         width: 90%;
@@ -752,7 +789,7 @@ body {
     .channels-section-text button {
         width: 85%;
     }
-    /* Tools Section */
+    
     .tools {
         text-align: center;
     }
@@ -779,5 +816,14 @@ body {
     }
     .channels-section-text button {
         width: 70%;
+    }
+    /* book-quiz-section*/
+    .book-quiz-section {
+        height: inherit;
+        padding: 20px 0;
+    }
+    .book-quiz-btn {
+        width: 45%;
+        margin: 20px;
     }
  }
