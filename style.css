@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     width: 100%;
     height: 100%;
 }
@@ -539,7 +539,7 @@ body {
 /* end subject form */
 /*---- end subjects section -----*/
 
-/***** start read & quiz secti *****/
+/***** start book & quiz section *****/
 .book-quiz-section {
     width: 75%;
     height: 150px;
@@ -550,6 +550,7 @@ body {
     align-items: center;
     position: relative;
     border: 3px solid #ddbb14;
+    border-radius: 20px;
 }
 .book-quiz-btn {
     width: 25%;
