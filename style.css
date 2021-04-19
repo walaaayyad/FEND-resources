@@ -57,14 +57,15 @@ body {
 .navbar-menu li {
     display: inline-block;
 }
-.navbar-menu a {
+.navbar-menu .nav-link {
     text-decoration: none;
     padding: 6px;
     color: #eee;
 }
-.navbar-menu a:hover,
-.navbar-menu a:active {
-    color: #f5d94e;
+.navbar-menu .nav-link:hover,
+.active
+{
+    color: #f5d94e !important;
     border-bottom: 1px solid #f5d94e;
     transition: all 0.3s ease-in-out;
 }
@@ -89,7 +90,7 @@ body {
     height: 4px;
     background-color: #03b2e3;
     margin: 5px auto;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 .line:first-child {
     margin-top: 20%;
@@ -153,9 +154,12 @@ body {
     letter-spacing: 2px;
     font-weight: 600;
 }
-.hamburgerMenu a:hover {
-    color: #eee;
-    background-color: #3f1246;   
+.hamburgerMenu a:hover,
+.homeActive {
+    color: #eee !important;
+    background-color: #3f1246; 
+    padding: 10px;
+    
 }
 .hamburgerMenu.open {
     clip-path: circle(1000px at 90% 10%);
@@ -318,7 +322,7 @@ body {
 .learning-page .closeBtn img {
     width: inherit;
     height: inherit;
-    background-color: #561860;
+    background-color: #ddbb14;
     border-radius: 50%;
 }
 .learning-page ul {
@@ -541,8 +545,8 @@ body {
 
 /***** start book & quiz section *****/
 .book-quiz-section {
-    width: 75%;
-    height: 150px;
+    width: 90%;
+    padding: 20px;
     background-color: #3f1246;
     display: flex;
     flex-wrap: wrap;
@@ -554,7 +558,7 @@ body {
 }
 .book-quiz-btn {
     width: 25%;
-    height: 50px;
+    height: 45px;
     color: #ddbb14;
     margin: 10px;
     font-size: 20px;
@@ -630,6 +634,7 @@ body {
 /***************** start tools section *****************/
 .tools li a {
     font-size: 1rem;
+    cursor: pointer;
 }
 .tools h4 {
     color: #ddbb14;
@@ -774,7 +779,7 @@ body {
         padding: 20px 0;
     }
     .book-quiz-btn {
-        width: 80%;
+        width: 90%;
         margin: 20px;
     }
     /* projects section */
@@ -824,7 +829,7 @@ body {
         padding: 20px 0;
     }
     .book-quiz-btn {
-        width: 45%;
+        width: 35%;
         margin: 20px;
     }
  }

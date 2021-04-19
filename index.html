@@ -18,10 +18,11 @@
             <div class="navbar-menu">
                 <div class="logo"><img src="./images/icons8-favorite-folder-64.png"/></div> 
                 <ul id="navbar-list">
-                    <li><a href="#channels"> Channels</a></li>
-                    <li><a href="#learn"> Learn</a></li>
-                    <li><a href="#projects"> Projects</a></li>
-                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="/" class="nav-link active">Home</a></li>
+                    <li><a href="#channels" class="nav-link"> Channels</a></li>
+                    <li><a href="#learn" class="nav-link"> Learn</a></li>
+                    <li><a href="#projects" class="nav-link"> Projects</a></li>
+                    <li><a href="#tools" class="nav-link">Tools</a></li>
                 </ul>
 
                 <!-- Side Navigation Menu with Hamburger Icon --> 
@@ -34,6 +35,7 @@
                 <div id="cover" class="darkCover"></div>
                 <div id="sideMenu" class="hamburgerMenu">
                   <ul id="sideNavbar">
+                    <li onclick="openIconHandler()"><a href="/" class="homeActive">Home</a></li>
                     <li onclick="openIconHandler()"><a href="#channels"> Channels</a></li>
                     <li onclick="openIconHandler()"><a href="#learn"> Learn</a></li>
                     <li onclick="openIconHandler()"><a href="#projects"> Projects</a></li>
@@ -65,7 +67,7 @@
         <!-----------------------------
             Start Channels Section 
         ------------------------------>
-        <section id="channels" class="channels-section">
+        <section id="channels" class="channels-section" data-nav="Section channels">
             <div class="section-container">
                 <div class="channels-section-img"><img src="./images/—Pngtree—modern flat design concept of_5332855.png" alt="people"></div>
                 <div class="channels-section-text">
@@ -193,16 +195,17 @@
         
         
         <!-----------------------------
-        Start Subjects Section [ learn ]
+            Start Subjects Main Section
         ------------------------------>      
         <section class="subjects-section">
             <div class="section-container">
-                <div id="learn" class="card">
+                <!-----------------------------
+                    Start Learn Section 
+                ------------------------------>
+                <section id="learn" class="card" data-nav="Section learn">
                     <div class="title">Learn</div>
                     <ul>
-                         <!--------------------
-                            Start Front-End Page 
-                        ---------------------->
+                        <!-- Start Front-End Page -->
                         <li id="frontEnd"><a href="#frontEndForm" onclick="openForm(frontEndForm)"><img src="./icons/icons8-web-design-64.png" alt="webIcon" class="icon2">Front-End-Course</a>
                             <div id="frontEndForm" class="learning-page">
                                 <div class="title">Front-End-Course</div>
@@ -214,9 +217,7 @@
                                 </div>
                             </div>
                         </li>
-                        <!--------------------
-                            Start HTML Page 
-                        ---------------------->
+                        <!-- Start HTML Page -->
                         <li id="html"><a href="#htmlForm" onclick="openForm(htmlForm)"><img src="./icons/html.svg" alt="htmlIcon" class="icon">HTML</a>
                             <div id="htmlForm" class="learning-page">
                                 <div class="title">HTML Page</div>
@@ -286,21 +287,24 @@
                         </li>
                         <!-- End github Page -->
                     </ul>
-                </div>
+                </section>
+                <!-----  End Learn Section ----->
 
-                <!--S test section-->
-                <div class="book-quiz-section">
+                <!-----------------------------
+                    Start book-quiz Section 
+                ------------------------------>    
+                <section class="book-quiz-section">
                     <button id="read" class="book-quiz-btn" onclick="openForm()">Books</button>
                     <button id="quiz" class="book-quiz-btn" onclick="openForm()">Online Quizzes</button>
                     <button id="sheet" class="book-quiz-btn" onclick="openForm()">Cheat sheet</button>
-                </div>
-               <!--E test section-->
+                </section>
+                <!-----  End book-quiz Section ----->
 
 
                 <!-----------------------------
                     Start Projects Section 
                 ------------------------------>     
-                <div id="projects" class="card">
+                <section id="projects" class="card" data-nav="Section projects">
                     <div class="title">Projects</div>
                     <div class="projects-section">
                         <img src="./images/—Pngtree—hand drawn cartoon learning education_5364788.png" class="projects-img" alt="">
@@ -330,14 +334,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-----  End Projects Section ----->
 
                 
                 <!-----------------------------
                     Start Tools Section 
                 ------------------------------>  
-                <div id="tools" class="card">
+                <section id="tools" class="card" data-nav="Section tools">
                     <div class="title">Developer Tools</div>
                     <ul class="tools">
                         <h4>Testing, Optimization & Development</h4>
@@ -389,21 +393,13 @@
                             <li><a href="https://getwaves.io/" target="_blank">Get Waves</a></li>
                         
                     </ul>
-                </div>
+                </section>
+                 <!-----  End Tools Section ----->
+
             </div>
         </section>
-        <!--***** End Subjects Section *****-->
+        <!--***** End Subjects Main Section *****-->
         
-        
-        <!-----------------------------
-            Start ### Section 
-        ------------------------------>  
-        <section>
-            <div>
-                
-            </div>
-        </section>
-        <!--***** End ### Section *****-->
 </div> 
 <script src="./app.js"></script>
 <script src="./data.js"></script>

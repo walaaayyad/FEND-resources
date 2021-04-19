@@ -31,34 +31,8 @@ const closeForm = (id)=> {
   id.classList.remove("open");
   return;
 }
-//3- Function to activate section & its URL on the navbar 
-const addActiveClass= (id)=> {
-  //Add active class for link on navbar
-  document.querySelector('.link__active')?.classList.remove('link__active');
-  document.querySelector(`[href="#section${id}"]`).classList.add('link__active');
 
-  //Add active class to section
-  document.querySelector(".your-active-class")?.classList.remove("your-active-class");
-  document.querySelector(`#section${id}`).classList.add("your-active-class");
-    
-}
-
-//4- Function to add class 'active' to section when near top of viewport
-const activeCurrentSection = ()=> {
-  //select all sections by attribute
-  const newSections = document.querySelectorAll('[data-nav]');
-    //loop the sections and add active style on current section
-    newSections.forEach(section=> {
-      let sectionRect= section.getBoundingClientRect();
-        //add condition if the section appears on viewport by its ratio
-        if(sectionRect.top/sectionRect.height < 0.5) {
-          //Use a function [slice the id number from the sectionId to pass it to the function]    
-          addActiveClass(section.id.slice(7));
-        }
-    })
-} 
-
-//5- Function to change navbar color when scroll down [[[ok]]]
+//3- Function to change navbar color when scroll down [[[ok]]]
 const changeBackgroud = ()=> {
   if(window.scrollY >= 90) {
     navbar.classList.add('scroll');
@@ -70,13 +44,17 @@ const changeBackgroud = ()=> {
   }
 }
 
-//6- Function to scroll top whith smooth effect comes from css
+//4- Function to scroll top whith smooth effect comes from css
 const scrollToTop = () => {
   scrollUpBtn.classList.add('hidden');
-  window.scrollTo(0,0);
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
 }
 
-//7- Function to handle open & close side menu
+//5- Function to handle open & close side menu
 const openIconHandler = ()=> {
   document.getElementById('1').classList.toggle('line1');
   document.getElementById('2').classList.toggle('line2');
@@ -89,9 +67,8 @@ const openIconHandler = ()=> {
     Define EVENT LISTENERS  
 ******************************/
  
-// Scroll to targetElement
+// Change Navbar color when scroll down
 window.addEventListener('scroll', ()=> {
-// activeCurrentSection(); 
   changeBackgroud();
 }
 );
