@@ -11,6 +11,10 @@ const htmlForm = document.getElementById('htmlForm'),
       githubForm = document.getElementById('githubForm'),
       arabicProject = document.getElementById('arabicProject'),
       englishProject = document.getElementById('englishProject'),
+      readForm = document.getElementById('readForm'),
+      practiceForm = document.getElementById('practiceForm'),
+      quizForm = document.getElementById('quizForm'),
+      cheatSheetForm = document.getElementById('cheatSheetForm'),
       scrollUpBtn = document.getElementById('upBtn');
 
 

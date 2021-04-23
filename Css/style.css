@@ -212,7 +212,7 @@ body {
     border-radius: 42% 39% 22% 56% / 45% 39% 25% 27% ;
     position: absolute;
     right: 2%;
-    bottom: 10%;
+    bottom: 3%;
 }
 .header-text {
     font-size: 3rem;
@@ -552,7 +552,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position: relative;
     border: 3px solid #ddbb14;
     border-radius: 20px;
 }
@@ -570,6 +569,43 @@ body {
         20deg, #3f1246, rgba(255,255,255,0.25));
     border: none;
 }
+.book-quiz-list ul {
+    display: block;
+}
+.book-quiz-list h3 {
+    width: 15%;
+    color: #ddbb14;
+    font-size: 1.5rem;
+    margin: 25px auto;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddbb14;
+}
+#readForm {
+    display: none;
+}
+#readForm.open {
+    display: block;
+}
+#practiceForm {
+    display: none;
+}
+#practiceForm.open {
+    display: block;
+}
+#quizForm {
+    display: none;
+}
+#quizForm.open {
+    display: block;
+}
+#cheatSheetForm {
+    display: none;
+}
+#cheatSheetForm.open {
+    display: block;
+}
+
  /*---- end read & quiz section ----*/
 
 /***** start Projects section *****/
@@ -796,6 +832,9 @@ footer img {
     .book-quiz-btn {
         width: 90%;
         margin: 20px;
+    }
+    .book-quiz-list h3 {
+        width: 40%;
     }
     /* projects section */
     .projects-img {

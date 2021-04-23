@@ -294,9 +294,141 @@
                     Start book-quiz Section 
                 ------------------------------>    
                 <section class="book-quiz-section">
-                    <button id="read" class="book-quiz-btn" onclick="openForm()">Books</button>
-                    <button id="quiz" class="book-quiz-btn" onclick="openForm()">Online Quizzes</button>
-                    <button id="sheet" class="book-quiz-btn" onclick="openForm()">Cheat sheet</button>
+                    <button id="read" class="book-quiz-btn" onclick="openForm(readForm)">Read</button>
+                    <div id="readForm" class="learning-page">
+                        <div class="title">Read</div>
+                        <button class="closeBtn" onclick="closeForm(readForm)"><img src="./icons/closeB.svg" alt=""></button>
+                        <div class="book-quiz-list">
+                            
+                            <h3>HTML</h3>
+                            <ul>
+                                <li><a href="https://www.w3schools.com/html/">w3schools</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></li>
+                                <li><a href="https://developer.mozilla.org/ar/docs/Web/HTML">MDN Web Docs [ Arabic ]</a></li>
+                                <li><a href="https://download-internet-pdf-ebooks.com/27-1-library-books">المكتبة التقنية</a></li>
+                            </ul>
+                            <h3>CSS</h3>
+                            <ul>
+                                <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+                                <li><a href="https://www.w3schools.com/css/">W3schools</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs</a></li>
+                                <li><a href="https://developer.mozilla.org/ar/docs/Web/CSS">MDN Web Docs [ Arabic ]</a></li>
+                                <li><a href="https://download-internet-pdf-ebooks.com/32-1-library-books">المكتبة التقنية</a></li>
+                                <li><a href="https://www.apress.com/gp/web-development/css">Apress Books - CSS [Free for Egyptions]</a></li>
+                            </ul>
+                            <h3>JavaScript</h3>
+                            <ul>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN Web Docs</a></li>
+                                <li><a href="https://developer.mozilla.org/ar/docs/Web/JavaScript/Guide">MDN Web Docs [ Arabic ]</a></li>
+                                <li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
+                                <li><a href="https://www.w3schools.com/js/DEFAULT.asp">w3schools</a></li>
+                                <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials Point</a></li>
+                                <li><a href="https://www.rofofs.com/2019/07/Learn-Javascript-pdf-free.html">رفوف</a></li>
+                                <li><a href="https://download-internet-pdf-ebooks.com/29-1-library-books">المكتبة التقنية</a></li>
+                                <li><a href="https://www.apress.com/gp/web-development/javascript">Apress Books - JavaScript [Free for Egyptions]</a></li>
+                            </ul>
+                        </div>                        
+                    </div>
+
+                    <button id="practice" class="book-quiz-btn" onclick="openForm(practiceForm)">Coding Practice</button>
+                    <div id="practiceForm" class="learning-page">
+                        <div class="title">Coding Practice</div>
+                        <button class="closeBtn" onclick="closeForm(practiceForm)"><img src="./icons/closeB.svg" alt=""></button>
+                        <div class="book-quiz-list">
+                            <h3>Front-End</h3>
+                            <ul>
+                                <li><a href="https://www.frontendmentor.io/">Frontend Mentor</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                            <h3>JavaScript</h3>
+                            <ul>
+                                <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/">freeCodeCamp</a></li>
+                                <li><a href="https://javascript30.com/">Javascript30</a></li>
+                                <li><a href="https://edabit.com/challenges">Edabit Challenges</a></li>
+                                <li><a href="https://www.hackerrank.com/domains/tutorials/10-days-of-javascript">10 Days of Javascript [HackerRank]</a></li>
+                                <li><a href="https://www.learn-js.org/">Learn js</a></li>
+                                <li><a href="https://www.w3resource.com/javascript-exercises/">JavaScript - Exercises, Practice, Solution [w3resource]</a></li>
+                                <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">JavaScript Algorithms [freeCodeCamp]</a></li>
+                            </ul>
+                            <h3>CSS</h3>
+                            <ul>
+                                <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Responsive Web Design [freeCodeCamp]</a></li>
+                                <li><a href="https://codier.io/">Challenges [codier]</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                            
+                        </div>                        
+                    </div>
+
+                    <button id="sheet" class="book-quiz-btn" onclick="openForm(cheatSheetForm)">Cheat sheet</button>
+                    <div id="cheatSheetForm" class="learning-page">
+                        <div class="title">Cheat sheet</div>
+                        <button class="closeBtn" onclick="closeForm(cheatSheetForm)"><img src="./icons/closeB.svg" alt=""></button>
+                        <div class="book-quiz-list">
+                            <h3></h3>
+                            <ul>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                            <h3></h3>
+                            <ul>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                            <h3></h3>
+                            <ul>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                        </div>                        
+                    </div>
+
+                    <button id="quiz" class="book-quiz-btn" onclick="openForm(quizForm)">Online Quizzes</button>
+                    <div id="quizForm" class="learning-page">
+                        <div class="title">Online Quizzes</div>
+                        <button class="closeBtn" onclick="closeForm(quizForm)"><img src="./icons/closeB.svg" alt=""></button>
+                        <div class="book-quiz-list">
+                            <h3></h3>
+                            <ul>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                            <h3></h3>
+                            <ul>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                            <h3></h3>
+                            <ul>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                                <li><a href="">#</a></li>
+                            </ul>
+                        </div>                             
+                    </div>
+
                 </section>
                 <!-----  End book-quiz Section ----->
 
