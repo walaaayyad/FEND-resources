@@ -115,7 +115,7 @@ body {
     position: absolute;
     margin-top: 30px;
     transform: rotate(55deg);
-    transition: all 10.4 ease;
+    transition: all 1.4 ease;
     -webkit-transform: rotate(55deg);
     -moz-transform: rotate(55deg);
     -ms-transform: rotate(55deg);
@@ -286,6 +286,24 @@ body {
     box-shadow: 12px 12px 16px 0 #7322813d, -8px -8px 12px 0 rgb(255 255 255 / 30%);
     background: linear-gradient(-5deg, #5a2a9c, rgba(255,255,255,0.25));
 }
+.podcast-section {
+    border: 1px solid #ddbb14;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    padding-top: 3%;
+}
+.podcast-section h3 {
+    color: #ddbb14;
+    border-bottom: 1px solid #ddbb14;
+    width: 30%;
+    padding-bottom: 5px;
+    margin: auto;
+}
+.podcast-section a {
+    color: #ddbb14 !important;
+}
 /*** start channels list ***/
 #arabic {
     display: none;
@@ -366,6 +384,9 @@ body {
     border: 1px solid #55165E;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25)
 }
+#channels ul li a {
+    color: #55165E;
+}
 /*** end channels list ***/
 /***************** end channels section *******************/
 
@@ -412,7 +433,7 @@ body {
 }
 .subjects-section a {
     text-decoration: none;
-    color: #fff;
+    color: #eee;
     font-size: 1.5rem;
 }
 .subjects-section .title {
@@ -554,9 +575,10 @@ body {
     align-items: center;
     border: 3px solid #ddbb14;
     border-radius: 20px;
+    margin-bottom: 5%;
 }
 .book-quiz-btn {
-    width: 25%;
+    width: 40%;
     height: 45px;
     color: #ddbb14;
     margin: 10px;
@@ -566,7 +588,7 @@ body {
     cursor: pointer;
     box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%), -4px -4px 12px 0 rgb(255 255 255 / 30%);
     background: linear-gradient( 
-        20deg, #3f1246, rgba(255,255,255,0.25));
+        20deg, #3f1246, rgba(255,255,255,0.1));
     border: none;
 }
 .book-quiz-list ul {

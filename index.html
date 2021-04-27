@@ -18,7 +18,6 @@
             <div class="navbar-menu">
                 <div class="logo"><img src="./images/icons8-favorite-folder-64.png"/></div> 
                 <ul id="navbar-list">
-                    <li><a href="/" class="nav-link active">Home</a></li>
                     <li><a href="#channels" class="nav-link"> Channels</a></li>
                     <li><a href="#learn" class="nav-link"> Learn</a></li>
                     <li><a href="#projects" class="nav-link"> Projects</a></li>
@@ -35,7 +34,6 @@
                 <div id="cover" class="darkCover"></div>
                 <div id="sideMenu" class="hamburgerMenu">
                   <ul id="sideNavbar">
-                    <li onclick="openIconHandler()"><a href="/" class="homeActive">Home</a></li>
                     <li onclick="openIconHandler()"><a href="#channels"> Channels</a></li>
                     <li onclick="openIconHandler()"><a href="#learn"> Learn</a></li>
                     <li onclick="openIconHandler()"><a href="#projects"> Projects</a></li>
@@ -46,7 +44,6 @@
               </div>
         </div>
         <!--***** End Navbar *****-->
-
         <!-----------------------------
                 Start Header 
         ------------------------------>
@@ -61,25 +58,18 @@
                 <img src="./images/wave.svg" class="wave" alt="wave">
             </div>       
         </header>
-        <!--***** End Header *****-->
+        <!--***** End Header *****--> 
         <div id="upBtn" onclick="scrollToTop()">up</div>
 
-        <!-----------------------------
-            Start Channels Section 
-        ------------------------------>
-        
-        <!--***** End Channels Section *****-->
-        
-        
         <!-----------------------------
             Start Subjects Main Section
         ------------------------------>      
         <section class="subjects-section">
             <div class="section-container">
                 <!-----------------------------
-                    Start Learn Section 
+                 Start Channels Section 
                 ------------------------------>
-                <section id="channels" class="channels-section" data-nav="Section channels">
+                <section id="channels" class="channels-section">
                     <div class="section-container">
                         <div class="channels-section-img"><img src="./images/—Pngtree—modern flat design concept of_5332855.png" alt="people"></div>
                         <div class="channels-section-text">
@@ -128,6 +118,13 @@
                                                 <a href="https://www.youtube.com/channel/UCirZap8QRlZIZ6LdHQoLaxg/videos" target="_blank">وحوش الفريلانس</a>
                                             </li>
                                         </ul>
+                                        <div class="podcast-section">
+                                            <h3>Podcast</h3>
+                                            <ul>
+                                                <li><a href="https://nullplus.plus/" target="_blank">null++</a></li>
+                                                <li><a href="https://anchor.fm/iahmadzain" target="_blank">Teck and Coffee</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                             </div>
                             <!-- End Arabic channels-->
@@ -203,7 +200,12 @@
                         </div>
                     </div>
                 </section>
-                <section id="learn" class="card" data-nav="Section learn">
+                <!--***** End Channels Section *****-->
+
+                <!-----------------------------
+                    Start Learn Section 
+                ------------------------------>
+                <section id="learn" class="card">
                     <div class="title">Learn</div>
                     <ul>
                         <!-- Start Front-End Page -->
@@ -300,6 +302,10 @@
                         <div class="title">Read</div>
                         <button class="closeBtn" onclick="closeForm(readForm)"><img src="./icons/closeB.svg" alt=""></button>
                         <div class="book-quiz-list">
+                            <h3>Front-End</h3>
+                            <ul>
+                                <li><a href="https://frontendmasters.com/books/front-end-handbook/2019/">Front-end Developer Guide</a></li>
+                            </ul>
                             
                             <h3>HTML</h3>
                             <ul>
@@ -324,6 +330,7 @@
                                 <li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
                                 <li><a href="https://www.w3schools.com/js/DEFAULT.asp">w3schools</a></li>
                                 <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials Point</a></li>
+                                <li><a href="https://github.com/getify/You-Dont-Know-JS">You-Dont-Know-JS</a></li>
                                 <li><a href="https://www.rofofs.com/2019/07/Learn-Javascript-pdf-free.html">رفوف</a></li>
                                 <li><a href="https://download-internet-pdf-ebooks.com/29-1-library-books">المكتبة التقنية</a></li>
                                 <li><a href="https://www.apress.com/gp/web-development/javascript">Apress Books - JavaScript [Free for Egyptions]</a></li>
@@ -339,10 +346,6 @@
                             <h3>Front-End</h3>
                             <ul>
                                 <li><a href="https://www.frontendmentor.io/">Frontend Mentor</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
                             </ul>
                             <h3>JavaScript</h3>
                             <ul>
@@ -358,9 +361,6 @@
                             <ul>
                                 <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Responsive Web Design [freeCodeCamp]</a></li>
                                 <li><a href="https://codier.io/">Challenges [codier]</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
                             </ul>
                             
                         </div>                        
@@ -371,29 +371,29 @@
                         <div class="title">Cheat sheet</div>
                         <button class="closeBtn" onclick="closeForm(cheatSheetForm)"><img src="./icons/closeB.svg" alt=""></button>
                         <div class="book-quiz-list">
-                            <h3></h3>
+                            <h3>HTML</h3>
                             <ul>
-                                <li><a href="">#</a></li>
+                                <li><a href="https://digital.com/tools/html-cheatsheet/">Digital HTML Cheatsheet</a></li>
                                 <li><a href="">#</a></li>
                                 <li><a href="">#</a></li>
                                 <li><a href="">#</a></li>
                                 <li><a href="">#</a></li>
                             </ul>
-                            <h3></h3>
+                            <h3>CSS</h3>
                             <ul>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
+                                <li><a href="https://www.toptal.com/css/css-cheat-sheet">Toptal CSS cheat sheet</a></li>
+                                <li><a href="https://adam-marsden.co.uk/css-cheat-sheet">CSS Cheat Sheet</a></li>
                                 <li><a href="">#</a></li>
                                 <li><a href="">#</a></li>
                                 <li><a href="">#</a></li>
                             </ul>
-                            <h3></h3>
+                            <h3>JavaScript</h3>
                             <ul>
                                 <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
-                                <li><a href="">#</a></li>
+                                <li><a href="https://cheatography.com/davechild/cheat-sheets/javascript/">Cheatography</a></li>
+                                <li><a href="https://www.xul.fr/javascript/cheat-sheet.php">XUL JavaScript Cheat Sheet</a></li>
+                                <li><a href="https://andreasnylin.com/js-array-cheat-sheet/">JavaScript Array Cheat Sheet</a></li>
+                                <li><a href="https://onedrive.live.com/?authkey=%21AB9haHgwXtaDCK0&cid=5E4F6DAE2F8B84DE&id=5E4F6DAE2F8B84DE%21122414&parId=5E4F6DAE2F8B84DE%21103814&o=OneUp">OneDrive javaScript</a></li>
                             </ul>
                         </div>                        
                     </div>
@@ -437,7 +437,7 @@
                 <!-----------------------------
                     Start Projects Section 
                 ------------------------------>     
-                <section id="projects" class="card" data-nav="Section projects">
+                <section id="projects" class="card">
                     <div class="title">Projects</div>
                     <div class="projects-section">
                         <img src="./images/—Pngtree—hand drawn cartoon learning education_5364788.png" class="projects-img" alt="">
@@ -474,7 +474,7 @@
                 <!-----------------------------
                     Start Tools Section 
                 ------------------------------>  
-                <section id="tools" class="card" data-nav="Section tools">
+                <section id="tools" class="card" data-offset='100'>
                     <div class="title">Developer Tools</div>
                     <ul class="tools">
                         <h4>Testing, Optimization & Development</h4>
@@ -482,6 +482,7 @@
                         <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validator by W3C</a></li>
                         <li><a href="https://imagecompressor.com/" target="_blank">Online Image Optimizer</a></li>
                         <li><a href="https://tinyjpg.com/" target="_blank">Tiny jpg</a></li>
+                        <li><a href="https://autoprefixer.github.io/" target="_blank">Autoprefixer CSS online</a></li>
 
                         <h4>Popular Blogs & Communities</h4>
                         <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
@@ -502,6 +503,7 @@
                             <li><a href="https://paletton.com/#uid=14H0u0kllllaFw0g0qFqFg0w0aF" target="_blank">Paletton</a></li>
                             <li><a href="https://html-css-js.com/css/generator/gradient/" target="_blank">Gradient CSS Generator</a></li>
                             <li><a href="https://uigradients.com/#SandtoBlue" target="_blank">UI Gradients</a></li>
+                            <li><a href="https://mycolor.space/gradient?ori=to+right+bottom&hex=%238E2DE2&hex2=%234A00E0&sub=1" target="_blank">ColorSpace CSS Gradients</a></li>
 
                         <h4>Icons</h4>
                             <li><a href="https://www.flaticon.com/" target="_blank">Vector Icons</a></li>
@@ -524,7 +526,9 @@
                             <li><a href="https://9elements.github.io/fancy-border-radius/#66.65.30.92--541.541" target="_blank">Fancy Border Generator</a></li>
                             <li><a href="https://bennettfeely.com/clippy/" target="_blank">Border Shape Generator</a></li>
                             <li><a href="https://getwaves.io/" target="_blank">Get Waves</a></li>
-                        
+
+                        <h4>Animation</h4>
+                            <li><a href="https://animate.style/">Animate.css</a></li>
                     </ul>
                 </section>
                  <!-----  End Tools Section ----->
