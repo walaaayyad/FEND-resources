@@ -865,6 +865,9 @@ footer img {
     .book-quiz-list h3 {
         width: 40%;
     }
+    .book-quiz-list ol {
+        column-count: auto;
+    }
     /* projects section */
     .projects-img {
         width: 90%;
