@@ -670,10 +670,10 @@ body {
     border: none;
     border-radius: 20px;
     color: #f5d94ed9;
-    background-color: #6f257a;
+    background-color: #55165e;
     box-shadow: 
-       12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-      -8px -5px 12px 0 rgba(255, 255, 255, 0.15)
+       7px 7px 16px 0 rgba(0, 0, 0, 0.25),
+      -5px -4px 12px 0 rgba(255, 255, 255, 0.15)
 }
 .projects-section-btn:active {
     box-shadow: 
