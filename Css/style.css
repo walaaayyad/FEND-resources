@@ -283,7 +283,7 @@ body {
     font-weight: 600;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: 12px 12px 16px 0 #7322813d, -8px -8px 12px 0 rgb(255 255 255 / 30%);
+    box-shadow: 12px 12px -1px 0 #7322813d, -8px -8px 12px 0 rgb(255 255 255 / 30%);
     background: linear-gradient(-5deg, #5a2a9c, rgba(255,255,255,0.25));
 }
 .podcast-section {
@@ -833,6 +833,10 @@ footer img {
         top: 5px;
         left: 5px;
     }
+    #upBtn {
+        right: 10px;
+        bottom: 10px;
+    }
     .circle {
         width: 285px;
     }
@@ -860,6 +864,9 @@ footer img {
     }
     .learning-page .btnMargin {
         margin-left: 5%;
+    }
+    .podcast-section h3 {
+        width: 50%;
     }
     /* book-quiz-section*/
     .book-quiz-section {
