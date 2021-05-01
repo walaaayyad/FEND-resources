@@ -125,6 +125,7 @@
                                                 <li><a href="https://anchor.fm/iahmadzain" target="_blank">Teck and Coffee</a></li>
                                             </ul>
                                         </div>
+                                        <button class="book-quiz-btn" onclick="closeForm(arabic)">Close</button>
                                     </div>
                             </div>
                             <!-- End Arabic channels-->
@@ -194,6 +195,7 @@
                                                 <a href="https://www.youtube.com/c/DevTipsForDesigners/playlists" target="_blank">DevTips</a>
                                             </li>
                                         </ul>
+                                        <button class="book-quiz-btn" onclick="closeForm(english)">Close</button>
                                     </div>
                             </div>
                             <!-- End English channels-->
@@ -217,6 +219,7 @@
                                     <ul id="frontPage" class="subject-page-list">
                                         <!-- data comes from frontPage array in data.js -->
                                     </ul>
+                                    <button class="book-quiz-btn btnMargin" onclick="closeForm(frontEndForm)">Close</button>
                                 </div>
                             </div>
                         </li>
@@ -229,6 +232,7 @@
                                     <ul id="htmlPage" class="subject-page-list">
                                         <!-- data comes from html array in data.js -->
                                     </ul>
+                                    <button class="book-quiz-btn btnMargin" onclick="closeForm(htmlForm)">Close</button>
                                 </div>
               
                         </li>
@@ -243,6 +247,7 @@
                                     <ul id="cssPage" class="subject-page-list">
                                         <!-- data comes from css array in data.js -->
                                     </ul>
+                                    <button class="book-quiz-btn btnMargin" onclick="closeForm(cssForm)">Close</button>
                                 </div>
                             </div>
                         </li>
@@ -257,6 +262,7 @@
                                     <ul id="jsPage" class="subject-page-list">
                                        <!-- data comes from *** array in data.js -->
                                     </ul>
+                                    <button class="book-quiz-btn btnMargin" onclick="closeForm(jsForm)">Close</button>
                                 </div>
                             </div>
                         </li>
@@ -271,6 +277,7 @@
                                     <ul id="gitPage" class="subject-page-list">
                                         <!-- data comes from *** array in data.js -->
                                     </ul>
+                                    <button class="book-quiz-btn btnMargin" onclick="closeForm(gitForm)">Close</button>
                                 </div>
                             </div>
                         </li>
@@ -283,8 +290,9 @@
                                 <button class="closeBtn" onclick="closeForm(githubForm)"><img src="./icons/closeB.svg" alt=""></button>
                                 <div id="githubPage" class="subject-page-section">
                                     <ul class="subject-page-list">
-                                        <!-- data comes from *** array in data.js -->
+                                        <!-- data comes from github array in data.js -->
                                     </ul>
+                                    <button class="book-quiz-btn btnMargin" onclick="closeForm(githubForm)">Close</button>
                                 </div>
                             </div>
                         </li>
@@ -297,6 +305,7 @@
                     Start book-quiz Section 
                 ------------------------------>    
                 <section class="book-quiz-section">
+                    <!-- Read -->
                     <button id="read" class="book-quiz-btn" onclick="openForm(readForm)">Read</button>
                     <div id="readForm" class="learning-page">
                         <div class="title">Read</div>
@@ -335,9 +344,12 @@
                                 <li><a href="https://download-internet-pdf-ebooks.com/29-1-library-books" target="_blank">المكتبة التقنية</a></li>
                                 <li><a href="https://www.apress.com/gp/web-development/javascript" target="_blank">Apress Books - JavaScript [Free for Egyptions]</a></li>
                             </ol>
-                        </div>                        
+                            
+                        </div>   
+                        <button class="book-quiz-btn btnMargin" onclick="closeForm(readForm)">Close</button>                     
                     </div>
 
+                    <!-- practice -->
                     <button id="practice" class="book-quiz-btn" onclick="openForm(practiceForm)">Coding Practice</button>
                     <div id="practiceForm" class="learning-page">
                         <div class="title">Coding Practice</div>
@@ -362,10 +374,11 @@
                                 <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank">Responsive Web Design [freeCodeCamp]</a></li>
                                 <li><a href="https://codier.io/" target="_blank">Challenges [codier]</a></li>
                             </ol>
-                            
+                            <button class="book-quiz-btn btnMargin" onclick="closeForm(practiceForm)">Close</button>
                         </div>                        
                     </div>
 
+                    <!-- cheat-sheet -->
                     <button id="sheet" class="book-quiz-btn" onclick="openForm(cheatSheetForm)">Cheat sheet</button>
                     <div id="cheatSheetForm" class="learning-page">
                         <div class="title">Cheat sheet</div>
@@ -373,25 +386,29 @@
                         <div class="book-quiz-list">
                             <h3>HTML</h3>
                             <ol>
+                                <li><a href="https://www.w3schools.com/TAGS/default.ASP" target="_blank">HTML Element Reference</a></li>
+                                <li><a href="https://www.wpkube.com/html5-cheat-sheet/" target="_blank">The Ultimate HTML 5 Cheat Sheet – 2021</a></li>
                                 <li><a href="https://digital.com/tools/html-cheatsheet/" target="_blank">Digital HTML Cheatsheet</a></li>
-                                <li><a href="" target="_blank">#</a></li>
                             </ol>
                             <h3>CSS</h3>
                             <ol>
+                                <li><a href="https://www.w3schools.com/cssref/default.asp" target="_blank">CSS Reference</a></li>
                                 <li><a href="https://www.toptal.com/css/css-cheat-sheet" target="_blank">Toptal CSS cheat sheet</a></li>
                                 <li><a href="https://adam-marsden.co.uk/css-cheat-sheet" target="_blank">CSS Cheat Sheet</a></li>
-                                <li><a href="" target="_blank">#</a></li>
                             </ol>
                             <h3>JavaScript</h3>
                             <ol>
+                                <li><a href="https://www.w3schools.com/jsref/default.asp" target="_blank">JavaScript and HTML DOM Reference</a></li>
                                 <li><a href="https://cheatography.com/davechild/cheat-sheets/javascript/" target="_blank">Cheatography</a></li>
                                 <li><a href="https://www.xul.fr/javascript/cheat-sheet.php" target="_blank">XUL JavaScript Cheat Sheet</a></li>
                                 <li><a href="https://andreasnylin.com/js-array-cheat-sheet/" target="_blank">JavaScript Array Cheat Sheet</a></li>
                                 <li><a href="https://onedrive.live.com/?authkey=%21AB9haHgwXtaDCK0&cid=5E4F6DAE2F8B84DE&id=5E4F6DAE2F8B84DE%21122414&parId=5E4F6DAE2F8B84DE%21103814&o=OneUp" target="_blank">OneDrive javaScript</a></li>
                             </ol>
+                            <button class="book-quiz-btn btnMargin" onclick="closeForm(cheatSheetForm)">Close</button>
                         </div>                        
                     </div>
 
+                    <!-- Quizzes -->
                     <button id="quiz" class="book-quiz-btn" onclick="openForm(quizForm)">Online Quizzes</button>
                     <div id="quizForm" class="learning-page">
                         <div class="title">Online Quizzes</div>
@@ -447,6 +464,7 @@
                                 <li><a href="https://www.toptal.com/javascript/interview-questions" target="_blank">37 Essential JavaScript Interview Questions [Toptal]</a></li>
                                 <li><a href="https://www.fullstack.cafe/blog/javascript-code-interview-questions" target="_blank">25+ JavaScript Coding Interview Questions [FullStack Cafe]</a></li>
                             </ol>
+                            <button class="book-quiz-btn btnMargin" onclick="closeForm(quizForm)">Close</button>
                         </div>                             
                     </div>
 
@@ -472,6 +490,7 @@
                                        <!-- data comes from aProject array in data.js -->
                                     </ul>
                                 </div>
+                                <button class="book-quiz-btn btnMargin" onclick="closeForm(arabicProjectForm)">Close</button>
                             </div>
 
                             <!-- Start English Projects -->
@@ -484,6 +503,7 @@
                                         <!-- data comes from eProject array in data.js -->
                                     </ul>
                                 </div>
+                                <button class="book-quiz-btn btnMargin" onclick="closeForm(englishProjectForm)">Close</button>
                             </div>
                         </div>
                     </div>
@@ -557,6 +577,7 @@
         </section>
         <!--***** End Subjects Main Section *****-->
     <footer>
+        <p>Developed By Walaa Ayyad &#169; 2021</p>
         <a href="https://github.com/walaaayyad/my-favorite">
             <img src="./icons/logo-github.svg" alt="github">
         </a>

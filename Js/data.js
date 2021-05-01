@@ -1399,10 +1399,8 @@ const eProject = [
 ]
 
 
-
-
 //######################################################
-// Function to add <li> to the DOM
+// Function to add videos to the DOM
 const addvideos= (id, arr)=> {arr.map(i => {
     id.insertAdjacentHTML("beforeend", `
     <li class="subject-page-card">

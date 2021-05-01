@@ -291,7 +291,7 @@ body {
     border-radius: 20px;
     width: 80%;
     margin: auto;
-    margin-top: 10%;
+    margin: 30px auto;
     padding-top: 3%;
 }
 .podcast-section h3 {
@@ -360,6 +360,10 @@ body {
     letter-spacing: 3px;
     margin-top: 20px;
     text-align: center;
+}
+.learning-page .btnMargin {
+    margin-left: 32%;
+    margin-top: 50px;
 }
 .videos-list {
     display: flex;
@@ -581,7 +585,7 @@ body {
 .book-quiz-btn {
     width: 40%;
     height: 45px;
-    color: #ddbb14;
+    color: #ddbb14 !important;
     margin: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -589,7 +593,7 @@ body {
     cursor: pointer;
     box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%), -4px -4px 12px 0 rgb(255 255 255 / 30%);
     background: linear-gradient( 
-        20deg, #3f1246, rgba(255,255,255,0.1));
+        20deg, #3f1246, rgba(255,255,255,0.1)) !important;
     border: none;
 }
 .book-quiz-list ol {
@@ -722,6 +726,7 @@ footer img {
     height: 25px;
     background-color: #eee;
     border-radius: 50%;
+    margin: 7px;
 }
 /***************** end footer *******************/
 
@@ -852,6 +857,9 @@ footer img {
     }
     .subject-page-card {
         width: 93%;
+    }
+    .learning-page .btnMargin {
+        margin-left: 5%;
     }
     /* book-quiz-section*/
     .book-quiz-section {
