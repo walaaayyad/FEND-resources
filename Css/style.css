@@ -340,7 +340,6 @@ body {
 .learning-page .closeBtn img {
     width: inherit;
     height: inherit;
-    background-color: #ddbb14;
     border-radius: 50%;
 }
 .learning-page ul {
@@ -760,7 +759,6 @@ footer img {
     height: 300px;
     animation: x2 10s linear infinite alternate;
 }
-
 /******************
   Start Key Frames
 *******************/

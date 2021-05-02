@@ -79,7 +79,7 @@
                                 <button id="arabic-channels-btn" onclick="openForm(arabic)">Arabic Channels</button>
                                     <div id="arabic" class="learning-page">
                                         <h2>Arabic Channels</h2>
-                                        <button id="arabicCloseBtn" class="closeBtn" onclick="closeForm(arabic)"><img src="./icons/closeB.svg" alt=""></button>
+                                        <button id="arabicCloseBtn" class="closeBtn" style="background: transparent; margin-top: 6px;" onclick="closeForm(arabic)"><img src="./icons/closeB.svg" alt=""></button>
                                         <ul class="videos-list">
                                             <li class="channel-card">
                                                 <img src="./channelsLogo/elzero.jpg" alt="elzero">
@@ -136,7 +136,7 @@
                                 <button id="english-channels-btn" onclick="openForm(english)">English Channels</button>
                                     <div id="english" class="learning-page">
                                         <h2>English Channels</h2>
-                                        <button id="englishCloseBtn" class="closeBtn" onclick="closeForm(english)"><img src="./icons/closeB.svg" alt=""></button>
+                                        <button id="englishCloseBtn" class="closeBtn" style="background: transparent; margin-top: 6px;" onclick="closeForm(english)"><img src="./icons/closeB.svg" alt=""></button>
                                         <ul class="videos-list">
                                             <li class="channel-card">
                                                 <img src="./channelsLogo/theNetNinja.jpeg" alt="The Net Ninja">
@@ -288,12 +288,13 @@
                             <div id="githubForm" class="learning-page">
                                 <div class="title">GitHub Page</div>
                                 <button class="closeBtn" onclick="closeForm(githubForm)"><img src="./icons/closeB.svg" alt=""></button>
-                                <div id="githubPage" class="subject-page-section">
-                                    <ul class="subject-page-list">
+                                <div class="subject-page-section">
+                                    <ul id="githubPage" class="subject-page-list">
                                         <!-- data comes from github array in data.js -->
                                     </ul>
                                     <button class="book-quiz-btn btnMargin" onclick="closeForm(githubForm)">Close</button>
                                 </div>
+                                <!-- <button class="book-quiz-btn btnMargin" onclick="closeForm(githubForm)">Close</button> -->
                             </div>
                         </li>
                         <!-- End github Page -->
