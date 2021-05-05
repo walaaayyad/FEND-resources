@@ -712,7 +712,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
 }
-.tools h4 {
+.tools p {
     color: #ddbb14;
     border-bottom: 1px solid #ddbb14;
     width: 45%;
@@ -901,7 +901,7 @@ footer img {
     .tools {
         text-align: center;
     }
-    .tools h4 {
+    .tools p {
         margin: auto;
     }
 }

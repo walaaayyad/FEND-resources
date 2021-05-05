@@ -10,42 +10,50 @@
         {
             "src": "/manifest-icons/icon-72-72.png",
             "type": "image/png",
-            "sizes": "72x72"
+            "sizes": "72x72",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-96-96.png",
             "type": "image/png",
-            "sizes": "96x96"
+            "sizes": "96x96",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-128-128.png",
             "type": "image/png",
-            "sizes": "128x128"
+            "sizes": "128x128",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-144-144.png",
             "type": "image/png",
-            "sizes": "144x144"
+            "sizes": "144x144",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-150-150.png",
             "type": "image/png",
-            "sizes": "150x150"
+            "sizes": "150x150",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-192-192.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-360-360.png",
             "type": "image/png",
-            "sizes": "360x360"
+            "sizes": "360x360",
+            "purpose": "any maskable"
         },
         {
             "src": "/manifest-icons/icon-512-512.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any maskable"
         }
     ]
 }
