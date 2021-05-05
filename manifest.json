@@ -2,7 +2,7 @@
     "name": "FEND-resources",
     "short_name": "FEND-resources",
     "start_url": "/index.html",
-    "display": "fullscreen",
+    "display": "standalone",
     "background_color": "#eeeeee",
     "theme_color": "#3f1246",
     "orientation": "portrait-primary",
