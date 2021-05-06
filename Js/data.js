@@ -144,16 +144,6 @@ const frontEnd = [
     //-----------------E---------------------
     {
         totalVid: 1,
-        totalDur: 1.09,
-        lang: 'English',
-        img: '/programmingWithMosh.jpeg',
-        alt: 'programmingWithMosh',
-        date: '11 Jan 2021',
-        ref: 'https://www.youtube.com/watch?v=qz0aGYrrlhU&list=PLTjRvDozrdlw5En5v2xrBr_EqieHf7hGs&index=11&ab_channel=ProgrammingwithMosh',
-        title: 'HTML Tutorial for Beginners: HTML Crash Course [2021]'
-    },
-    {
-        totalVid: 1,
         totalDur: 9.16,
         lang: 'English',
         img: '/codingAddict.jpeg',
@@ -327,6 +317,16 @@ const html = [
         title: 'HTML Language By Dr.Mohamed Amin'
     },
     //-----------------E---------------------
+    {
+        totalVid: 1,
+        totalDur: 1.09,
+        lang: 'English',
+        img: '/programmingWithMosh.jpeg',
+        alt: 'programmingWithMosh',
+        date: '11 Jan 2021',
+        ref: 'https://www.youtube.com/watch?v=qz0aGYrrlhU&list=PLTjRvDozrdlw5En5v2xrBr_EqieHf7hGs&index=11&ab_channel=ProgrammingwithMosh',
+        title: 'HTML Tutorial for Beginners: HTML Crash Course [2021]'
+    },
     {
         totalVid: 17,
         totalDur: 2.04,
