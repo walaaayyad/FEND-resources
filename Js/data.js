@@ -1239,7 +1239,7 @@ const aProject = [
         alt: 'uniqueCoderz',
         date: '4 Jul 2017',
         ref: 'https://www.youtube.com/watch?v=1anI07Bde6g&list=PLtFbQRDJ11kFq3C3I7sKHjXbFru4rx8qs',
-        title: 'Design Template Using ( HTML 5 - CSS 3 )'
+        title: 'Design Template Using ( HTML5 - CSS3 )'
     },
     {
         totalVid: 13,
@@ -1249,7 +1249,7 @@ const aProject = [
         alt: 'uniqueCoderz',
         date: '21 Jan 2017',
         ref: 'https://www.youtube.com/watch?v=FV1JUHo3mA0&list=PLtFbQRDJ11kHL5MyN6kLTr1n4InvKdeis',
-        title: 'Design Template Using ( HTML 5 , CSS 3 , Bootstrap)'
+        title: 'Design Template Using ( HTML5 , CSS3 , Bootstrap)'
     },
     {
         totalVid: 8,
@@ -1279,7 +1279,7 @@ const aProject = [
         alt: 'uniqueCoderz',
         date: '22 Dec 2016',
         ref: 'https://www.youtube.com/watch?v=0WL7hR__mw8&list=PLtFbQRDJ11kFg64KOH91XV7JkueV3rUvu',
-        title: 'Design Template Using ( HTML 5 - CSS 3 - jQuery )'
+        title: 'Design Template Using ( HTML5 - CSS3 - jQuery )'
     },
     {
         totalVid: 5,
