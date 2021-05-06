@@ -770,6 +770,7 @@ body {
 }
 .projects-img {
     width: 40%;
+    height: inherit;
 }
 .projects-section-btn {
     width: 70%;
