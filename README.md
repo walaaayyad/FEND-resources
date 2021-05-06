@@ -135,33 +135,33 @@
 - 25+ JavaScript Coding Interview Questions [FullStack Cafe] https://www.fullstack.cafe/blog/javascript-code-interview-questions
 
 ### Arabic Projects
--1 HTML And CSS Template 1 https://www.youtube.com/watch?v=MBq8ZFEIIaQ&list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF
--2 Create Template With HTML,CSS3,JavaScript https://www.youtube.com/watch?v=vedT2jk3hi4&list=PLDoPjvoNmBAzvmpzF-6l3tAviiCPbwkB8&index=1
--3 Creating A Website From Preview [ Html, Css Lv1 ] https://www.youtube.com/watch?v=urQihL3GTnw&list=PLDoPjvoNmBAxzmjuEpKP8r4sVWEtFvKoq&index=1
--4 Creating A Website From Preview [ Html, Css, jQuery Lv2 ] https://www.youtube.com/watch?v=52s6c4kYx-Y&list=PLDoPjvoNmBAwccMO4JiLP_vJHxJ_NWeqL
--5 Creating A Website From Preview [ Html, Css3, jQuery Lv3 ] https://www.youtube.com/watch?v=6olupGFs9DA&list=PLDoPjvoNmBAzVWN837CWYXS18LJ69HvRV
--6 Design Using Bootstrap 3 Design 1 https://www.youtube.com/watch?v=auFVttzUoo8&list=PLDoPjvoNmBAw24EjNUp_88S1VeaNK8Cts
--7 Design Using Bootstrap 3 Design 2 https://www.youtube.com/watch?v=SwCQTLB2zoo&list=PLDoPjvoNmBAxYmbhnyM0yxH3OzhoDiAP9
--8 Design Using Bootstrap 4 Design 1 https://www.youtube.com/watch?v=DbUjq8J6RK8&list=PLDoPjvoNmBAy0dU3C3_lNRTSTtqePEsI2
--9 Design Responsive Template Using ( HTML,CSS,Media Query ) https://www.youtube.com/watch?v=s599ucSnBs8&list=PLtFbQRDJ11kG7W2TmVs4gr9FqmZ0Ui551
--10 Design Template Using ( HTML5 - CSS3 ) https://www.youtube.com/watch?v=1anI07Bde6g&list=PLtFbQRDJ11kFq3C3I7sKHjXbFru4rx8qs
--11 Design Template Using ( HTML5 , CSS3 , Bootstrap) https://www.youtube.com/watch?v=FV1JUHo3mA0&list=PLtFbQRDJ11kHL5MyN6kLTr1n4InvKdeis
--12 Design Template Using ( HTML , CSS , jQuery ) https://www.youtube.com/watch?v=MGiqZbnt1n4&list=PLtFbQRDJ11kE3Weby1aZ0wKcgBk_iIlq3
--13 Design Template Multiple Pages Using ( HTML & CSS) https://www.youtube.com/watch?v=hIhpIUPFDhM&list=PLtFbQRDJ11kEvT0fwrz003tAGZP7sIBhI
--14 Design Template Using ( HTML5 - CSS3 - jQuery ) https://www.youtube.com/watch?v=0WL7hR__mw8&list=PLtFbQRDJ11kFg64KOH91XV7JkueV3rUvu
--15 Design Template Using ( HTML - CSS - JS ) https://www.youtube.com/watch?v=h9MyENykDLk&list=PLtFbQRDJ11kHihgJYV_6S3j7KhK96cdB1
--16 Design Template Using ( HTML - CSS ) https://www.youtube.com/watch?v=iE1o-VtwfFw&list=PLtFbQRDJ11kHtc8yjnmdxdoebNMumtlzH
--17 مشاريع صغيرة - HTML, CSS, Javascript https://www.youtube.com/watch?v=IC2XLhYxTOQ&list=PL0_C_32YKLpwetRB-a3Rj0Q4KNuIVocao
--18 SPA with JavaScript https://www.youtube.com/watch?v=ET5xqznLP7E&list=PLtxOBbrOOPH6Os1EJifSE59Bd5WbL15pn
+- 1- HTML And CSS Template 1 https://www.youtube.com/watch?v=MBq8ZFEIIaQ&list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF
+- 2- Create Template With HTML,CSS3,JavaScript https://www.youtube.com/watch?v=vedT2jk3hi4&list=PLDoPjvoNmBAzvmpzF-6l3tAviiCPbwkB8&index=1
+- 3- Creating A Website From Preview [ Html, Css Lv1 ] https://www.youtube.com/watch?v=urQihL3GTnw&list=PLDoPjvoNmBAxzmjuEpKP8r4sVWEtFvKoq&index=1
+- 4- Creating A Website From Preview [ Html, Css, jQuery Lv2 ] https://www.youtube.com/watch?v=52s6c4kYx-Y&list=PLDoPjvoNmBAwccMO4JiLP_vJHxJ_NWeqL
+- 5- Creating A Website From Preview [ Html, Css3, jQuery Lv3 ] https://www.youtube.com/watch?v=6olupGFs9DA&list=PLDoPjvoNmBAzVWN837CWYXS18LJ69HvRV
+- 6- Design Using Bootstrap 3 Design 1 https://www.youtube.com/watch?v=auFVttzUoo8&list=PLDoPjvoNmBAw24EjNUp_88S1VeaNK8Cts
+- 7- Design Using Bootstrap 3 Design 2 https://www.youtube.com/watch?v=SwCQTLB2zoo&list=PLDoPjvoNmBAxYmbhnyM0yxH3OzhoDiAP9
+- 8- Design Using Bootstrap 4 Design 1 https://www.youtube.com/watch?v=DbUjq8J6RK8&list=PLDoPjvoNmBAy0dU3C3_lNRTSTtqePEsI2
+- 9- Design Responsive Template Using ( HTML,CSS,Media Query ) https://www.youtube.com/watch?v=s599ucSnBs8&list=PLtFbQRDJ11kG7W2TmVs4gr9FqmZ0Ui551
+- 10- Design Template Using ( HTML5 - CSS3 ) https://www.youtube.com/watch?v=1anI07Bde6g&list=PLtFbQRDJ11kFq3C3I7sKHjXbFru4rx8qs
+- 11- Design Template Using ( HTML5 , CSS3 , Bootstrap) https://www.youtube.com/watch?v=FV1JUHo3mA0&list=PLtFbQRDJ11kHL5MyN6kLTr1n4InvKdeis
+- 12- Design Template Using ( HTML , CSS , jQuery ) https://www.youtube.com/watch?v=MGiqZbnt1n4&list=PLtFbQRDJ11kE3Weby1aZ0wKcgBk_iIlq3
+- 13- Design Template Multiple Pages Using ( HTML & CSS) https://www.youtube.com/watch?v=hIhpIUPFDhM&list=PLtFbQRDJ11kEvT0fwrz003tAGZP7sIBhI
+- 14- Design Template Using ( HTML5 - CSS3 - jQuery ) https://www.youtube.com/watch?v=0WL7hR__mw8&list=PLtFbQRDJ11kFg64KOH91XV7JkueV3rUvu
+- 15- Design Template Using ( HTML - CSS - JS ) https://www.youtube.com/watch?v=h9MyENykDLk&list=PLtFbQRDJ11kHihgJYV_6S3j7KhK96cdB1
+- 16- Design Template Using ( HTML - CSS ) https://www.youtube.com/watch?v=iE1o-VtwfFw&list=PLtFbQRDJ11kHtc8yjnmdxdoebNMumtlzH
+- 17- مشاريع صغيرة - HTML, CSS, Javascript https://www.youtube.com/watch?v=IC2XLhYxTOQ&list=PL0_C_32YKLpwetRB-a3Rj0Q4KNuIVocao
+- 18- SPA with JavaScript https://www.youtube.com/watch?v=ET5xqznLP7E&list=PLtxOBbrOOPH6Os1EJifSE59Bd5WbL15pn
 
 ### English Projects
--1 Build A Responsive HTML & CSS Template With FlexboxGrid https://www.youtube.com/watch?v=qlA7dputiNc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=39
--2 15 Vanilla Javascript Projects https://www.youtube.com/watch?v=c5SIG7Ie0dM&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX&index=3
--3 Projects https://www.youtube.com/watch?v=n_anTrNkRCQ&list=PLnHJACx3NwAd9rkfjamhmUs8iO38CgYXR&ab_channel=CodingAddict
--4 Mobile-First Responsive Build (with CSS Grid) https://www.youtube.com/watch?v=PM3XW_1RAIs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4
--5 HTML AND CSS Project - Slider https://www.youtube.com/watch?v=1I19G1jSkvw&list=PLnHJACx3NwAePj6M2FCEn7m1vaO84imNA&ab_channel=CodingAddict
--6 Javascript and Jquery Projects https://www.youtube.com/watch?v=aVLl1Lhvxo0&list=PLnHJACx3NwAf5ZJMIa-fNLKHS7MXtbJ1K&ab_channel=CodingAddict
--7 Responsive Websites https://www.youtube.com/watch?v=cUzHoVsNWgU&list=PLnHJACx3NwAc1EOWalM2fyUQgdqlO9s3T&ab_channel=CodingAddict
+- 1- Build A Responsive HTML & CSS Template With FlexboxGrid https://www.youtube.com/watch?v=qlA7dputiNc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=39
+- 2- 15 Vanilla Javascript Projects https://www.youtube.com/watch?v=c5SIG7Ie0dM&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX&index=3
+- 3- Projects https://www.youtube.com/watch?v=n_anTrNkRCQ&list=PLnHJACx3NwAd9rkfjamhmUs8iO38CgYXR&ab_channel=CodingAddict
+- 4- Mobile-First Responsive Build (with CSS Grid) https://www.youtube.com/watch?v=PM3XW_1RAIs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4
+- 5- HTML AND CSS Project - Slider https://www.youtube.com/watch?v=1I19G1jSkvw&list=PLnHJACx3NwAePj6M2FCEn7m1vaO84imNA&ab_channel=CodingAddict
+- 6- Javascript and Jquery Projects https://www.youtube.com/watch?v=aVLl1Lhvxo0&list=PLnHJACx3NwAf5ZJMIa-fNLKHS7MXtbJ1K&ab_channel=CodingAddict
+- 7- Responsive Websites https://www.youtube.com/watch?v=cUzHoVsNWgU&list=PLnHJACx3NwAc1EOWalM2fyUQgdqlO9s3T&ab_channel=CodingAddict
 
 ### Developer Tools
 #### Testing, Optimization & Development
