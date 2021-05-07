@@ -1,7 +1,17 @@
 # FEND-resources
-### Live Page https://walaaayyad.github.io/FEND-resources/
+موقع تعليمي يقدم مصادر لاشهر المواقع باللغة العربية واللغة الانجليزية في مجال انشاء واجهة - المواقع الالكترونية
+الجزء الاول يقدم اشهر القنوات التعليميه على اليوتيوب- 
+الجرء الثاني لتعلم اللغات الاساسيه لانشاء واجهة المستخدم- 
+الجزء الثالث يشمل اربع اقسام الاول للقراءة والثاني للتدريب والثالث الاختصارات الاكواد والاخير - للاختبارات
+الجزء الرابع خاص بالمشاريع- 
+اما الجزء الاخير فهو لاشهر الادوات المستخدمة في انشاء الموقع- 
+Add to home screen يمكنك تثبيت صفحة الموقع من خلال -
 
-### Arabic Channels on Youtube
+### Go To Live Page https://walaaayyad.github.io/FEND-resources/
+
+#  *** The Content Of The Website ***
+### ** Educational Channels on Youtube **
+#### Arabic Channels on Youtube
 - Elzero Web School https://www.youtube.com/c/ElzeroInfo/playlists
 - Unique Coderz Academy https://www.youtube.com/c/UniqueCoderzAcademy/playlists
 - Nour Homsi https://www.youtube.com/c/NourHomsi/playlists
@@ -16,11 +26,10 @@
 - Freelance Monsters https://www.youtube.com/channel/UCirZap8QRlZIZ6LdHQoLaxg/videos
 - Freelance Monsters website https://freelancemonsters.com/
 - Abdelrahman Haridy https://www.youtube.com/channel/UCB9oU-M1rmHH6YQ-38CkzOw/playlists
-### Arabic Podcast 
+#### Arabic Podcast 
 - null++ https://nullplus.plus/
 - Teck and Coffee https://anchor.fm/iahmadzain
-
-### English Channels on Youtube
+#### English Channels on Youtube
 - The Net Ninja https://www.youtube.com/c/TheNetNinja/playlists
 - Traversy Media https://www.youtube.com/c/TraversyMedia/playlists
 - Academind https://www.youtube.com/c/Academind/playlists
@@ -36,7 +45,7 @@
 - Udemy Tech https://www.youtube.com/c/UdemyTech/playlists
 - DevTips https://www.youtube.com/c/DevTipsForDesigners/playlists
 
-### Read
+### ** Read **
 #### FrontEnd
 - Front-end Developer Guide https://frontendmasters.com/books/front-end-handbook/2019/
 #### HTML
@@ -61,7 +70,7 @@
 - المكتبة التقنية https://download-internet-pdf-ebooks.com/29-1-library-books
 - Apress Books-JavaScript [Free for Egyptions] https://www.apress.com/gp/web-development/javascript
 
-### Practice
+### ** Practice **
 #### FrontEnd
 - Frontend Mentor https://www.frontendmentor.io/
 #### JavaScript
@@ -76,7 +85,7 @@
 - Responsive Web Design [ freeCodeCamp ] https://www.freecodecamp.org/learn/responsive-web-design/
 - Challenges [ codier ] https://codier.io/
 
-### Cheat Sheet
+### ** Cheat Sheet **
 #### HTML
 - HTML Element Reference https://www.w3schools.com/TAGS/default.ASP
 - The Ultimate HTML5 Cheat Sheet–2021 https://www.wpkube.com/html5-cheat-sheet/
@@ -92,7 +101,7 @@
 - JavaScript Array Cheat Sheet https://andreasnylin.com/js-array-cheat-sheet/
 - OneDrive javaScript https://onedrive.live.com/?authkey=%21AB9haHgwXtaDCK0&cid=5E4F6DAE2F8B84DE&id=5E4F6DAE2F8B84DE%21122414&parId=5E4F6DAE2F8B84DE%21103814&o=OneUp
 
-### Quizzes and Interview Questions
+### ** Quizzes and Interview Questions **
 #### FrontEnd
 - Pluralsight https://www.pluralsight.com/paths/building-websites-with-html-css-and-javascript
 - ProProfs https://www.proprofs.com/quiz-school/story.php?title=how-good-are-you-at-geometry_481gd
@@ -134,7 +143,8 @@
 - 37 Essential JavaScript Interview Questions [ Toptal ] https://www.toptal.com/javascript/interview-questions
 - 25+ JavaScript Coding Interview Questions [FullStack Cafe] https://www.fullstack.cafe/blog/javascript-code-interview-questions
 
-### Arabic Projects
+### ** Projects **
+#### Arabic Projects
 - 1- HTML And CSS Template 1 https://www.youtube.com/watch?v=MBq8ZFEIIaQ&list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF
 - 2- Create Template With HTML,CSS3,JavaScript https://www.youtube.com/watch?v=vedT2jk3hi4&list=PLDoPjvoNmBAzvmpzF-6l3tAviiCPbwkB8&index=1
 - 3- Creating A Website From Preview [ Html, Css Lv1 ] https://www.youtube.com/watch?v=urQihL3GTnw&list=PLDoPjvoNmBAxzmjuEpKP8r4sVWEtFvKoq&index=1
@@ -153,8 +163,7 @@
 - 16- Design Template Using ( HTML - CSS ) https://www.youtube.com/watch?v=iE1o-VtwfFw&list=PLtFbQRDJ11kHtc8yjnmdxdoebNMumtlzH
 - 17- مشاريع صغيرة - HTML, CSS, Javascript https://www.youtube.com/watch?v=IC2XLhYxTOQ&list=PL0_C_32YKLpwetRB-a3Rj0Q4KNuIVocao
 - 18- SPA with JavaScript https://www.youtube.com/watch?v=ET5xqznLP7E&list=PLtxOBbrOOPH6Os1EJifSE59Bd5WbL15pn
-
-### English Projects
+#### English Projects
 - 1- Build A Responsive HTML & CSS Template With FlexboxGrid https://www.youtube.com/watch?v=qlA7dputiNc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=39
 - 2- 15 Vanilla Javascript Projects https://www.youtube.com/watch?v=c5SIG7Ie0dM&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX&index=3
 - 3- Projects https://www.youtube.com/watch?v=n_anTrNkRCQ&list=PLnHJACx3NwAd9rkfjamhmUs8iO38CgYXR&ab_channel=CodingAddict
@@ -163,7 +172,7 @@
 - 6- Javascript and Jquery Projects https://www.youtube.com/watch?v=aVLl1Lhvxo0&list=PLnHJACx3NwAf5ZJMIa-fNLKHS7MXtbJ1K&ab_channel=CodingAddict
 - 7- Responsive Websites https://www.youtube.com/watch?v=cUzHoVsNWgU&list=PLnHJACx3NwAc1EOWalM2fyUQgdqlO9s3T&ab_channel=CodingAddict
 
-### Developer Tools
+### ** Developer Tools **
 #### Testing, Optimization & Development
 - HTML Validator by W3C https://validator.w3.org/
 - CSS Validator by W3C https://jigsaw.w3.org/css-validator/
@@ -194,10 +203,12 @@
 - Font Awesome https://fontawesome.com/
 - Icon Monstr https://iconmonstr.com/
 - Ionicons https://ionicons.com/
+- Flaticon https://www.flaticon.com/
 #### Image
 - Unsplash Images https://unsplash.com/
 - Pixabay Images https://pixabay.com/
 - Canva https://www.canva.com/
+- Freepik https://www.freepik.com/
 #### Font
 - Google Fonts https://fonts.google.com/
 - The best free fonts for designers https://www.creativebloq.com/graphic-design-tips/best-free-fonts-for-designers-1233380
