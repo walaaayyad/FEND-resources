@@ -15,7 +15,7 @@
 
 ##  *** The Content Of The Website ***
 ### ** Educational Channels on Youtube **
-#### Arabic Channels on Youtube
+#### Arabic Channels
 - Elzero Web School https://www.youtube.com/c/ElzeroInfo/playlists
 - Unique Coderz Academy https://www.youtube.com/c/UniqueCoderzAcademy/playlists
 - Nour Homsi https://www.youtube.com/c/NourHomsi/playlists
@@ -33,7 +33,7 @@
 #### Arabic Podcast 
 - null++ https://nullplus.plus/
 - Teck and Coffee https://anchor.fm/iahmadzain
-#### English Channels on Youtube
+#### English Channels
 - The Net Ninja https://www.youtube.com/c/TheNetNinja/playlists
 - Traversy Media https://www.youtube.com/c/TraversyMedia/playlists
 - Academind https://www.youtube.com/c/Academind/playlists
