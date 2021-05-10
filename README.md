@@ -12,12 +12,10 @@
 </ul></div>
 
 ### Go To Live Page https://walaaayyad.github.io/FEND-resources/
-<div>
-    <ul>
-        <li><img src="./images/FEND-channels.png" alt="channelsPage" style="width: 200px; height: 100px;"></li>
-        <li><img src="./images/FEND-Quizzes.png" alt="quizzesPage" style="width: 200px; height: 100px;"></li>
-    </ul>
-</div>
+
+<img src="./images/FEND-channels.png" alt="channelsPage" width= "200" >
+<img src="./images/FEND-Quizzes.png" alt="quizzesPage" width= "200" >
+
 
 ##  *** The Content Of The Website ***
 ### ** Educational Channels on Youtube **
