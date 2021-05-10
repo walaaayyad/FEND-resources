@@ -12,6 +12,14 @@
 </ul></div>
 
 ### Go To Live Page https://walaaayyad.github.io/FEND-resources/
+<div>
+    <ul>
+        <li><img src="./images/FEND.png" alt="mainPage"></li>
+        <li><img src="./images/FEND-channels.png" alt="channelsPage"></li>
+        <li><img src="./images/FEND-Tutorials.png" alt="tutorialPage"></li>
+        <li><img src="./images/FEND-Quizzes.png" alt="quizzesPage"></li>
+    </ul>
+</div>
 
 ##  *** The Content Of The Website ***
 ### ** Educational Channels on Youtube **
@@ -52,6 +60,7 @@
 ### ** Read **
 #### FrontEnd
 - Front-end Developer Guide https://frontendmasters.com/books/front-end-handbook/2019/
+- Programming books https://books.goalkicker.com/
 #### HTML
 - w3schools https://www.w3schools.com/html/
 - MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/HTML
