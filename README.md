@@ -13,6 +13,8 @@
 
 ### Go To Live Page https://walaaayyad.github.io/FEND-resources/
 <p float="left">
+  <img src="./images/FEND-Home1.png" alt="channelsPage" width= "200" >
+  <img src="./images/FEND-Home2.png" alt="quizzesPage" width= "200" >
   <img src="./images/FEND-channels.png" alt="channelsPage" width= "200" >
   <img src="./images/FEND-Quizzes.png" alt="quizzesPage" width= "200" >
 </p>
