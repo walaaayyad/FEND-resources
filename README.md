@@ -25,9 +25,9 @@
 #### Arabic Channels
 - Elzero Web School https://www.youtube.com/c/ElzeroInfo/playlists
 - Unique Coderz Academy https://www.youtube.com/c/UniqueCoderzAcademy/playlists
-- Nour Homsi https://www.youtube.com/c/NourHomsi/playlists
 - SemiColon Academy https://www.youtube.com/c/SemiColonAcademy/playlists
 - Mohamed Abusrea https://www.youtube.com/c/MohamedAbusrea/playlists
+- Nour Homsi https://www.youtube.com/c/NourHomsi/playlists
 - Free4arab https://www.youtube.com/user/Nourelhoda2011/playlists
 - Codezilla https://www.youtube.com/c/Codezilla/playlists
 - Codehood https://www.youtube.com/c/Codehood/playlists
