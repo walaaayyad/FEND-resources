@@ -14,10 +14,8 @@
 ### Go To Live Page https://walaaayyad.github.io/FEND-resources/
 <div>
     <ul>
-        <li><img src="./images/FEND.png" alt="mainPage"></li>
-        <li><img src="./images/FEND-channels.png" alt="channelsPage"></li>
-        <li><img src="./images/FEND-Tutorials.png" alt="tutorialPage"></li>
-        <li><img src="./images/FEND-Quizzes.png" alt="quizzesPage"></li>
+        <li><img src="./images/FEND-channels.png" alt="channelsPage" style="width: 200px; height: 100px;"></li>
+        <li><img src="./images/FEND-Quizzes.png" alt="quizzesPage" style="width: 200px; height: 100px;"></li>
     </ul>
 </div>
 
