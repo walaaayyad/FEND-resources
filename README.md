@@ -8,15 +8,16 @@
   <li> الجزء الثالث يشمل أربع اقسام للقراءه و التدريب وحل الاختبارات بالاضافه الى ورقة إختصارات الاكواد للغات الاساسية</li>
   <li>الجزءالرابع خاص بإنشاء مشاريع للتدريب</li>
   <li>أماالجزءالاخير فهو يحتوى على المواقع المساعده للتصميم مثل مواقع الايكونات او الصور او الالوان ..الخ، او مواقع مساعده في الانشاء مثل مواقع مراجعة الكود او ضغط الصور..الخ</li>
-  <li>يمكنك تثبيت صفحة الموقع من خلال خاصية Add to home screen</li>
+  <li>يمكنك تثبيت صفحة الموقع من خلال خاصية Add to home screen. 
+    <img src="./manifest-icons/website.png" alt="homePage" width= "30" height= "30"></li>
 </ul></div>
 
 ### Go To Live Page https://walaaayyad.github.io/FEND-resources/
 <p float="left">
-  <img src="./images/FEND-Home1.png" alt="channelsPage" width= "200" >
-  <img src="./images/FEND-Home2.png" alt="quizzesPage" width= "200" >
-  <img src="./images/FEND-channels.png" alt="channelsPage" width= "200" >
-  <img src="./images/FEND-Quizzes.png" alt="quizzesPage" width= "200" >
+  <img src="./images/FEND-Home1.png" alt="channelsPage" width= "150" height= "120">
+  <img src="./images/FEND-Home2.png" alt="quizzesPage" width= "150" height= "120">
+  <img src="./images/FEND-channels.png" alt="channelsPage" width= "150" height= "120">
+  <img src="./images/FEND-Quizzes.png" alt="quizzesPage" width= "150" height= "120">
 </p>
 
 ##  *** The Content Of The Website ***
