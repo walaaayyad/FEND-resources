@@ -16,7 +16,7 @@
 let aChannels = document.getElementById('aChannels'),
     eChannels = document.getElementById('eChannels');
 
-const a = [
+const ara = [
     {
         title: 'Elzero Web School',
         ref: 'https://www.youtube.com/c/ElzeroInfo/playlists',
@@ -97,7 +97,7 @@ const a = [
     }
 ]
 
-const e = [
+const eng = [
     {
         title: 'The Net Ninja',
         ref: 'https://www.youtube.com/c/TheNetNinja/playlists',
@@ -195,5 +195,5 @@ const addChannels = (id, arr)=> {
     });
 }
 
-addChannels(aChannels, a);
-addChannels(eChannels, e);
+addChannels(aChannels, ara);
+addChannels(eChannels, eng);
