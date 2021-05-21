@@ -35,6 +35,13 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
 }
+.arabicTitle {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    color: #ddbb14;
+    font-size: 1rem;
+}
 /**********************
     start navbar 
 ***********************/
