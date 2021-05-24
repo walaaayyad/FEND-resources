@@ -57,21 +57,21 @@
 - DevTips https://www.youtube.com/c/DevTipsForDesigners/playlists
 
 ### ** Read **
-#### FrontEnd
+#### Read_FrontEnd
 - Front-end Developer Guide https://frontendmasters.com/books/front-end-handbook/2019/
 - Programming books https://books.goalkicker.com/
-#### HTML
+#### Read_HTML
 - w3schools https://www.w3schools.com/html/
 - MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/HTML
 - MDN Web Docs [ Arabic ]  https://developer.mozilla.org/ar/docs/Web/HTML
 - المكتبة التقنية https://download-internet-pdf-ebooks.com/27-1-library-books
-#### CSS
+#### Read_CSS
 - CSS-Tricks https://css-tricks.com/
 - W3schools https://www.w3schools.com/css/
 - MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/CSS
 - المكتبة التقنية https://download-internet-pdf-ebooks.com/32-1-library-books
 - Apress Books - CSS [Free for Egyptions] https://www.apress.com/gp/web-development/css
-#### JavaScript
+#### Read_JavaScript
 - MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 - MDN Web Docs [ Arabic ] https://developer.mozilla.org/ar/docs/Web/JavaScript/Guide
 - The Modern JavaScript Tutorial https://javascript.info/
@@ -83,9 +83,9 @@
 - Apress Books-JavaScript [Free for Egyptions] https://www.apress.com/gp/web-development/javascript
 
 ### ** Practice **
-#### FrontEnd
+#### Practice_FrontEnd
 - Frontend Mentor https://www.frontendmentor.io/
-#### JavaScript
+#### Practice_JavaScript
 - freeCodeCamp https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
 - Javascript30 https://javascript30.com/
 - Edabit Challenges https://edabit.com/challenges
@@ -93,20 +93,20 @@
 - Learn js https://www.learn-js.org/
 - Exercises,Practice,Solution [ w3resource ] https://www.w3resource.com/javascript-exercises/
 - Algorithms [ freeCodeCamp ] https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
-#### CSS
+#### Practice_CSS
 - Responsive Web Design [ freeCodeCamp ] https://www.freecodecamp.org/learn/responsive-web-design/
 - Challenges [ codier ] https://codier.io/
 
 ### ** Cheat Sheet **
-#### HTML
+#### CheatSheet_HTML
 - HTML Element Reference https://www.w3schools.com/TAGS/default.ASP
 - The Ultimate HTML5 Cheat Sheet–2021 https://www.wpkube.com/html5-cheat-sheet/
 - Digital HTML Cheatsheet https://digital.com/tools/html-cheatsheet/
-#### CSS
+#### CheatSheet_CSS
 - CSS Reference https://www.w3schools.com/cssref/default.asp
 - Toptal CSS cheat sheet https://www.toptal.com/css/css-cheat-sheet
 - CSS Cheat Sheet https://adam-marsden.co.uk/css-cheat-sheet
-#### JavaScript
+#### CheatSheet_JavaScript
 - JavaScript and HTML DOM Reference https://www.w3schools.com/jsref/default.asp
 - Cheatography https://cheatography.com/davechild/cheat-sheets/javascript/
 - XUL JavaScript Cheat Sheet https://www.xul.fr/javascript/cheat-sheet.php
@@ -114,10 +114,10 @@
 - OneDrive javaScript https://onedrive.live.com/?authkey=%21AB9haHgwXtaDCK0&cid=5E4F6DAE2F8B84DE&id=5E4F6DAE2F8B84DE%21122414&parId=5E4F6DAE2F8B84DE%21103814&o=OneUp
 
 ### ** Quizzes and Interview Questions **
-#### FrontEnd
+#### Quizzes_FrontEnd
 - Pluralsight https://www.pluralsight.com/paths/building-websites-with-html-css-and-javascript
 - ProProfs https://www.proprofs.com/quiz-school/story.php?title=how-good-are-you-at-geometry_481gd
-#### HTML
+#### Quizzes_HTML
 - W3schools https://www.w3schools.com/html/html_quiz.asp
 - Ws Cube Tech https://www.wscubetech.com/quiz-test-html
 - CodesCracker https://codescracker.com/exam/showtest.php?subid=4
@@ -128,7 +128,7 @@
 - HTML Basics Exam: Trivia Quiz [ProProfs Quizzes] https://www.proprofs.com/quiz-school/story.php?title=introduction-to-html_2
 - Hardest HTML Exam Quiz: Trivia [ProProfs Quizzes] https://www.proprofs.com/quiz-school/story.php?title=html_146
 - 13 Most Helpful HTML Interview Questions & Answers [ GoSkills ] https://www.goskills.com/Development/Resources/HTML-interview-questions-answers
-#### CSS
+#### Quizzes_CSS
 - W3schools https://www.w3schools.com/css/css_quiz.asp
 - Ws Cube Tech-CSS https://www.wscubetech.com/quiz-test-css
 - Ws Cube Tech-CSS3 https://www.wscubetech.com/quiz-test-css3
@@ -141,7 +141,7 @@
 - CSS Interview Questions [ GoSkills ] https://www.javatpoint.com/css-interview-questions
 - 20 Most Helpful CSS Interview Q&A [ GoSkills ] https://www.goskills.com/Development/Resources/CSS-interview-questions-answers
 - Top 30+ Popular CSS Interview Q&A [ SoftwareTestingHelp ] https://www.softwaretestinghelp.com/css-interview-questions/
-#### JavaScript
+#### Quizzes_JavaScript
 - Pluralsight https://www.pluralsight.com/paths/javascript-core-language
 - Ws Cube Tech https://www.wscubetech.com/quiz-test-javascript
 - CodesCracker https://codescracker.com/exam/showtest.php?subid=6
