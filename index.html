@@ -131,7 +131,7 @@
                 <section id="learn" class="card">
                     <h2 class="title">Learn</h2>
                     <h3 class="arabicTitle"> تعلم اللغات الاساسيه لإنشاء المواقع</h3>
-                    <h3 class="arabicTitle"> تحتوي كل مادة على دروس تعليميه لأقوى المدربين على اليوتيوب</h3>
+                    <h3 class="arabicTitle"> يحتوي كل قسم على دروس تعليميه لأقوى المدربين على اليوتيوب</h3>
                     <ul>
                         <!-- Start Front-End Page -->
                         <li id="frontEnd"><a href="#frontEndForm" onclick="openForm(frontEndForm)"><img src="./icons/icons8-web-design-64.png" alt="webIcon" class="icon2">Front-End-Course</a>
@@ -234,44 +234,19 @@
                     <div id="readForm" class="learning-page">
                         <div class="title">Read</div>
                         <button class="closeBtn" onclick="closeForm(readForm)"><img src="./icons/closeB.svg" alt=""></button>
+                        <!-- To contribute go to read.js file and choose the suitable array to add new site link & title -->
                         <div class="book-quiz-list">
                             <h3>Front-End</h3>
-                            <ol>
-                                <li><a href="https://frontendmasters.com/books/front-end-handbook/2019/" target="_blank">Front-end Developer Guide</a></li>
-                                <li><a href="https://books.goalkicker.com/" target="_blank">Programming books</a></li>
-                            </ol>
+                            <ol id="read-front"></ol>
                             
                             <h3>HTML</h3>
-                            <ol>
-                                <li><a href="https://www.w3schools.com/html/" target="_blank">w3schools</a></li>
-                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
-                                <li><a href="https://developer.mozilla.org/ar/docs/Web/HTML" target="_blank">MDN Web Docs [ Arabic ]</a></li>
-                                <li><a href="https://download-internet-pdf-ebooks.com/27-1-library-books" target="_blank">المكتبة التقنية</a></li>
-                            </ol>
+                            <ol id="read-html"></ol>
+
                             <h3>CSS</h3>
-                            <ol>
-                                <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
-                                <li><a href="https://www.w3schools.com/css/" target="_blank">W3schools</a></li>
-                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs</a></li>
-                                <li><a href="https://developer.mozilla.org/ar/docs/Web/CSS" target="_blank">MDN Web Docs [ Arabic ]</a></li>
-                                <li><a href="https://download-internet-pdf-ebooks.com/32-1-library-books" target="_blank">المكتبة التقنية</a></li>
-                                <li><a href="https://www.apress.com/gp/web-development/css" target="_blank">Apress Books - CSS [Free for Egyptions]</a>
-                                <a href="https://www.youtube.com/watch?v=NoJzbPebd1I" target="_blank">[ فيديو توضيحي ]</a>
-                                </li>
-                            </ol>
+                            <ol id="read-css"></ol>
+
                             <h3>JavaScript</h3>
-                            <ol>
-                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN Web Docs</a></li>
-                                <li><a href="https://developer.mozilla.org/ar/docs/Web/JavaScript/Guide" target="_blank">MDN Web Docs [ Arabic ]</a></li>
-                                <li><a href="https://javascript.info/" target="_blank">The Modern JavaScript Tutorial</a></li>
-                                <li><a href="https://www.w3schools.com/js/DEFAULT.asp" target="_blank">w3schools</a></li>
-                                <li><a href="https://www.tutorialspoint.com/javascript/index.htm" target="_blank">Tutorials Point</a></li>
-                                <li><a href="https://github.com/getify/You-Dont-Know-JS" target="_blank">You-Dont-Know-JS</a></li>
-                                <li><a href="https://www.rofofs.com/2019/07/Learn-Javascript-pdf-free.html" target="_blank">رفوف</a></li>
-                                <li><a href="https://download-internet-pdf-ebooks.com/29-1-library-books" target="_blank">المكتبة التقنية</a></li>
-                                <li><a href="https://www.apress.com/gp/web-development/javascript" target="_blank">Apress Books - JavaScript [Free for Egyptions]</a></li>
-                            </ol>
-                            
+                            <ol id="read-javascipt"></ol>     
                         </div>   
                         <button class="book-quiz-btn btnMargin" onclick="closeForm(readForm)">Close</button>                     
                     </div>
@@ -401,7 +376,8 @@
                 <!--********* Start Projects Section *********-->     
                 <section id="projects" class="card">
                     <h2 class="title">Projects</h2>
-                    <h3 class="arabicTitle">إبدأ في تنفيذ مشاريع من خلال قنوات تعليمية على اليوتيوب</h3>
+                    <h3 class="arabicTitle"> إبدأ في تنفيذ مشروعك</h3>
+                    <h3 class="arabicTitle">من خلال قنوات تعليمية على اليوتيوب تقدم العديد من المشروعات المختلفة</h3>
                     <div class="projects-section">
                         <img src="./images/—Pngtree—hand_drawn_cartoon_learning_education_5364788.png" class="projects-img" alt="">
                         <div class="projects-item">
@@ -438,7 +414,8 @@
                 <!--********* Start Tools Section *********-->  
                 <section id="tools" class="card" data-offset='100'>
                     <h2 class="title">Developer Tools</h2>
-                    <h3 class="arabicTitle"> مواقع مساعدة في إنشاء صفحات الانترنت</h3>
+                    <h3 class="arabicTitle"> مواقع مساعدة</h3>
+                    <h3 class="arabicTitle"> مثل مواقع مراجعة الاكواد او ضغط الصور او مواقع تساعد في تقديم شكل جذاب للصفحة مثل المواقع الملهمة في التصميم او مواقع الصور والخطوط والايقونات المجانية او مواقع تحديد الالوان والظلال</h3>
                     <ul class="tools">
                         <li><p>Testing, Optimization & Development</p></li>
                             <li><a href="https://validator.w3.org/" target="_blank">HTML Validator by W3C</a></li>
@@ -510,6 +487,7 @@
 <script src="./Js/app.js"></script>
 <script src="./Js/Data/channels.js"></script>
 <script src="./Js/Data/subjects.js"></script>
+<script src="./Js/Data/read.js"></script>
 </body>
 </html>
 
