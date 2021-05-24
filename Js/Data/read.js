@@ -102,7 +102,6 @@ const jsRead = [
 
 
 const readPages = (id, arr)=> {arr.map(i => {
-    console.log('hello from read');
     id.insertAdjacentHTML("beforeend", `
         <li><a href=${i.href} target="_blank">${i.title}</a></li>
     `)

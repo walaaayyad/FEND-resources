@@ -1,98 +1,69 @@
-let cheatSheetFront = document.getElementById('cheatSheet-front'),
-cheatSheetHtml = document.getElementById('cheatSheet-html'),
-cheatSheetCss = document.getElementById('cheatSheet-css'),
-cheatSheetJavascipt = document.getElementById('cheatSheet-javascipt');
+let cheatSheetHtml = document.getElementById('cheatSheet-html'),
+    cheatSheetCss = document.getElementById('cheatSheet-css'),
+    cheatSheetJs = document.getElementById('cheatSheet-javascipt');
 
-const front= [
+
+const htmlCheatSheet = [
     {
-        title: '',
-        href: ''
+        title: 'HTML Element Reference',
+        href: 'https://www.w3schools.com/TAGS/default.ASP'
     },
     {
-        title: '',
-        href: ''
+        title: 'The Ultimate HTML5 Cheat Sheet–2021',
+        href: 'https://www.wpkube.com/html5-cheat-sheet/'
+    },
+    {
+        title: 'Digital HTML Cheatsheet',
+        href: 'https://digital.com/tools/html-cheatsheet/'
     }
 ];
 
-const html = [
+const cssCheatSheet = [
     {
-        title: '',
-        href: ''
+        title: 'CSS Reference',
+        href: 'https://www.w3schools.com/cssref/default.asp'
     },
     {
-        title: '',
-        href: ''
+        title: 'Toptal CSS cheat sheet',
+        href: 'https://www.toptal.com/css/css-cheat-sheet'
     },
     {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
+        title: 'CSS Cheat Sheet',
+        href: 'https://adam-marsden.co.uk/css-cheat-sheet'
     }
 ];
 
-const css = [
+const jsCheatSheet = [
     {
-        title: '',
-        href: ''
+        title: 'JavaScript and HTML DOM Reference',
+        href: 'https://www.w3schools.com/jsref/default.asp'
     },
     {
-        title: '',
-        href: ''
+        title: 'Cheatography',
+        href: 'https://cheatography.com/davechild/cheat-sheets/javascript/'
     },
     {
-        title: '',
-        href: ''
+        title: 'XUL JavaScript Cheat Sheet',
+        href: 'https://www.xul.fr/javascript/cheat-sheet.php'
     },
     {
-        title: '',
-        href: ''
+        title: 'JavaScript Array Cheat Sheet',
+        href: 'https://andreasnylin.com/js-array-cheat-sheet/'
     },
     {
-        title: '',
-        href: ''
-    }
-];
-
-const javascipt = [
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
+        title: 'OneDrive javaScript',
+        href: 'https://onedrive.live.com/?authkey=%21AB9haHgwXtaDCK0&cid=5E4F6DAE2F8B84DE&id=5E4F6DAE2F8B84DE%21122414&parId=5E4F6DAE2F8B84DE%21103814&o=OneUp'
     }
 ]
 
 
 
 const cheatSheetPages = (id, arr)=> {arr.map(i => {
-    console.log('hello from read');
     id.insertAdjacentHTML("beforeend", `
         <li><a href=${i.href} target="_blank">${i.title}</a></li>
     `)
 })}
 
-cheatSheetPages(cheatSheetFront, front);
-cheatSheetPages(cheatSheetHtml, html);
-cheatSheetPages(cheatSheetCss, css);
-cheatSheetPages(cheatSheetJavascript, javascript);
+cheatSheetPages(cheatSheetHtml, htmlCheatSheet);
+cheatSheetPages(cheatSheetCss, cssCheatSheet);
+cheatSheetPages(cheatSheetJs, jsCheatSheet);

@@ -1,98 +1,64 @@
 let practiceFront = document.getElementById('practice-front'),
-practiceHtml = document.getElementById('practice-html'),
-practiceCss = document.getElementById('practice-css'),
-practiceJavascipt = document.getElementById('practice-javascipt');
+    practiceCss = document.getElementById('practice-css'),
+    practiceJs = document.getElementById('practice-javascipt');
 
-const front= [
+const frontPractice = [
     {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
+        title: 'Frontend Mentor',
+        href: 'https://www.frontendmentor.io/'
     }
 ];
 
-const html = [
+const cssPractice = [
     {
-        title: '',
-        href: ''
+        title: 'Responsive Web Design [freeCodeCamp]',
+        href: 'https://www.freecodecamp.org/learn/responsive-web-design/'
     },
     {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
+        title: 'Challenges [codier]',
+        href: 'https://codier.io/'
     }
 ];
 
-const css = [
+const jsPractice = [
     {
-        title: '',
-        href: ''
+        title: 'freeCodeCamp',
+        href: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/'
     },
     {
-        title: '',
-        href: ''
+        title: 'Javascript30',
+        href: 'https://javascript30.com/'
     },
     {
-        title: '',
-        href: ''
+        title: 'Edabit Challenges',
+        href: 'https://edabit.com/challenges'
     },
     {
-        title: '',
-        href: ''
+        title: '10 Days of Javascript [HackerRank]',
+        href: 'https://www.hackerrank.com/domains/tutorials/10-days-of-javascript'
     },
     {
-        title: '',
-        href: ''
-    }
-];
-
-const javascipt = [
-    {
-        title: '',
-        href: ''
+        title: 'Learn js',
+        href: 'https://www.learn-js.org/'
     },
     {
-        title: '',
-        href: ''
+        title: 'JavaScript - Exercises, Practice, Solution [w3resource]',
+        href: 'https://www.w3resource.com/javascript-exercises/'
     },
     {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
-    },
-    {
-        title: '',
-        href: ''
+        title: 'JavaScript Algorithms [freeCodeCamp]',
+        href: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/'
     }
 ]
 
 
 
 const practicePages = (id, arr)=> {arr.map(i => {
-    console.log('hello from read');
     id.insertAdjacentHTML("beforeend", `
         <li><a href=${i.href} target="_blank">${i.title}</a></li>
     `)
 })}
 
-practicePages(practiceFront, front);
-practicePages(practiceHtml, html);
-practicePages(practiceCss, css);
-practicePages(practiceJavascript, javascript);
+practicePages(practiceFront, frontPractice);
+practicePages(practiceCss, cssPractice);
+practicePages(practiceJs, jsPractice);
