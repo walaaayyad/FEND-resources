@@ -1396,6 +1396,56 @@ const eProject = [
         ref: 'https://www.youtube.com/watch?v=cUzHoVsNWgU&list=PLnHJACx3NwAc1EOWalM2fyUQgdqlO9s3T&ab_channel=CodingAddict',
         title: 'Responsive Websites'
     },
+    {
+        totalVid: 44,
+        totalDur: 37.01,
+        lang: 'English',
+        img: '/mrWebDesigner.jpeg',
+        alt: 'mrWebDesigner',
+        date: '3 Jun 2021',
+        ref: 'https://www.youtube.com/watch?v=9DJrsu-2Zvs&list=PLSJxovi1IyDH-pPIe0OF0z_mW-WVdhmhx',
+        title: '44 Complete Responsive Website Design'
+    },
+    {
+        totalVid: 59,
+        totalDur: 40.90,
+        lang: 'English',
+        img: '/mrWebDesigner.jpeg',
+        alt: 'mrWebDesigner',
+        date: '2 Sept 2020',
+        ref: 'https://www.youtube.com/watch?v=yMaQdZyQg9Y&list=PLSJxovi1IyDFf36uSXsfQTmTVVFjAEkuo',
+        title: '59 Responsive Website Designs'
+    },
+    {
+        totalVid: 15,
+        totalDur: 3.20,
+        lang: 'English',
+        img: '/mrWebDesigner.jpeg',
+        alt: 'mrWebDesigner',
+        date: '28 May 2021',
+        ref: 'https://www.youtube.com/watch?v=z4PVKtHeQmY&list=PLSJxovi1IyDEMuThSeSj-amLb_GnfhwUh',
+        title: '15 Landing Pages Design'
+    },
+    {
+        totalVid: 6,
+        totalDur: 1.26,
+        lang: 'English',
+        img: '/mrWebDesigner.jpeg',
+        alt: 'mrWebDesigner',
+        date: '19 Dec 2020',
+        ref: 'https://www.youtube.com/watch?v=RcUAiSz2fmk&list=PLSJxovi1IyDEzDvr-iTBrfgJ_QNQo8Dma',
+        title: '6 Glassmorphism Designs'
+    },
+    {
+        totalVid: 0,
+        totalDur: 3.20,
+        lang: 'English',
+        img: '/mrWebDesigner.jpeg',
+        alt: 'mrWebDesigner',
+        date: '28 May 2021',
+        ref: '',
+        title: '15 Landing Pages Design'
+    }
 ]
 
 

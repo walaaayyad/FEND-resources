@@ -181,6 +181,12 @@ const eng = [
         ref: 'https://www.youtube.com/c/DevTipsForDesigners/playlists',
         alt: 'DevTips',
         img: '/devTips.jpeg'
+    },
+    {
+        title: 'Mr.Web Design',
+        ref: 'https://www.youtube.com/channel/UCKwgH3vASrD2brd1l2m6NHw/playlists',
+        alt: 'Mr.WebDesign',
+        img: '/mrWebDesigner.jpeg'
     }
 ]
 

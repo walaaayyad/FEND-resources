@@ -172,7 +172,7 @@ body {
 
 /* Start Side Menu */
 .hamburgerMenu {
-    background-color: #eee;
+    background-color: #3f1246;
     width: 60%;
     height: 100%;
     position: fixed;
@@ -193,10 +193,10 @@ body {
 }
 .hamburgerMenu li {
     display: block;
-    margin-top: 20px;
+    margin-top: 55px;
 }
 .hamburgerMenu a {
-    color: #3f1246;
+    color: #fff;
     font-size: 1.5rem;
     letter-spacing: 2px;
     font-weight: 600;
