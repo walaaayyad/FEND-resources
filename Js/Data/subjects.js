@@ -1435,16 +1435,6 @@ const eProject = [
         date: '19 Dec 2020',
         ref: 'https://www.youtube.com/watch?v=RcUAiSz2fmk&list=PLSJxovi1IyDEzDvr-iTBrfgJ_QNQo8Dma',
         title: '6 Glassmorphism Designs'
-    },
-    {
-        totalVid: 0,
-        totalDur: 3.20,
-        lang: 'English',
-        img: '/mrWebDesigner.jpeg',
-        alt: 'mrWebDesigner',
-        date: '28 May 2021',
-        ref: '',
-        title: '15 Landing Pages Design'
     }
 ]
 
