@@ -187,9 +187,14 @@ const eng = [
         ref: 'https://www.youtube.com/channel/UCKwgH3vASrD2brd1l2m6NHw/playlists',
         alt: 'Mr.WebDesign',
         img: '/mrWebDesigner.jpeg'
+    },
+    {
+        title: 'clever Programmer',
+        ref: 'https://www.youtube.com/c/CleverProgrammer/playlists',
+        alt: 'cleverProgrammer',
+        img: '/cleverProgrammer.jpeg'
     }
 ]
-
 const addChannels = (id, arr)=> {
     arr.map(i => {
         id.insertAdjacentHTML("beforeend", 
